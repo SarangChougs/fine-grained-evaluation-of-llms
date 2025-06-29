@@ -1,0 +1,625 @@
+{
+    "model_name": "timdettmers/guanaco-7b",
+    "result": [
+        {
+            "id": "tg1",
+            "input": "I need an 80s sci-fi fantasy character introduction for my newest novel. The main character\u2019s name is Drake, and the year is 3098.",
+            "expected_output": [
+                "The flashing neon lights bounced off Drake\u2019s face as he stepped out of the shadows. As a rogue bounty hunter, there was nothing Drake feared, and the scar covering his left eye proved this even further. \n\nHe had otherworldly energy about him, his electric undercut framing his face. His lone eye was like a star, burning wildly in his journey to find out the truth regarding his family. As he walked through the streets, heads turned in awe\u2014this hero was synonymous with hope for the people and the city, as 3098 was the universe\u2019s most dangerous year.\n\nIn Drake\u2019s holster was a next-generation laser pistol capable of exterminating dangerous cyborgs in just one good shot. It was clear Drake was fighting on the side of humanity, clinging to hope that his own agenda would someday be fulfilled."
+            ],
+            "generated_output": "In a far future where technology has advanced beyond anything imaginable, there was a man named Drake. He was a scientist of his time, specializing in genetic engineering and cybernetics. His mind was like a computer, always thinking and calculating, trying to find solutions to the problems of his world.",
+            "scores": {
+                "google_bleu": 0.06688963210702341,
+                "bertscore": {
+                    "precision": [
+                        0.6226914525032043
+                    ],
+                    "recall": [
+                        0.5480066537857056
+                    ],
+                    "f1": [
+                        0.5829667448997498
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.23958333333333334,
+                    "rouge2": 0.052631578947368425,
+                    "rougeL": 0.15625,
+                    "rougeLsum": 0.20833333333333334
+                }
+            },
+            "feedback": "The response doesn\u2019t capture the vivid and fantastical world that was asked for in the prompt. There is no creative or imaginative use of language to portray the sci-fi setting. The character introduction doesn\u2019t meet the expectations of the 80s sci-fi fantasy theme as the character\u2019s description and the world he lives in are quite mundane and lackluster. The response also misses the futuristic setting which was specifically requested in the prompt, instead choosing to focus on the character's professions rather than creating a character that embodies the futuristic and imaginative world. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "tg2",
+            "input": "Can you please explain what vegans eat and don\u2019t eat to a child? Use specific examples of the foods they can and cannot eat.",
+            "expected_output": [
+                "People who eat a vegan diet do not eat any food that is made from or by an animal. That means they do not eat meat or fish, like chicken, turkey sandwiches, tuna, or hamburgers. And because chickens make eggs and cows and sheep make milk and cheese, they don\u2019t eat those things either. Vegans eat vegetables, fruits, beans, and grains, like pasta and rice."
+            ],
+            "generated_output": "Veganism is a way of eating and living that avoids using any animal products or byproducts in any form. This includes things like meat, fish, dairy products such as milk, cheese, yogurt, and eggs, as well as other items such as honey and gelatin.\n\nFor example, here are some of the things that vegans can eat:\n\n1. Fruits and vegetables: These are all plant-based foods that provide vitamins, minerals, fiber, and other healthy nutrients. They include things like apples, bananas, carrots, broccoli, cauliflower, and many more.\n2. Grains and starches: These are also plant-based foods that include things like rice, pasta, bread, cereal, and potatoes.\n3. Nuts, seeds, and legumes: These are also plant-based foods that include things like almonds, peanuts, cashews, sunflower seeds, chickpeas, beans, and lentils.\n4. Oils and fats: These are also plant-based foods that come from things like avocados, olive oil, canola oil, nuts, and seeds.\n5. Herbs and spices: These are also plant-based ingredients that can be used for flavoring food.\n\nOn the other hand, here are some of the things that vegans do not eat:\n\n1. Meat, fish, poultry, and shellfish: These are all animal-based products that are obtained from animals who have been killed for their meat.\n2. Dairiry products: These include things like milk, cheese, yogurt, and butter. These are made from the milk of cows, goats, and other animals.\n3. Eggs: These are obtained from hens who have been kept for egg production.\n4. Honey: This is a sweet substance that comes from bees and is made from nectar.\n5. Gelatin: This is a protein substance that is made from boiling the bones, connective tissue, and skin of animals. It is used as an additive in foods such as Jell-O and marshmallows.\n\nAs you can",
+            "scores": {
+                "google_bleu": 0.0423956931359354,
+                "bertscore": {
+                    "precision": [
+                        0.5104095935821533
+                    ],
+                    "recall": [
+                        0.6357513666152954
+                    ],
+                    "f1": [
+                        0.5662268996238708
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.2125340599455041,
+                    "rouge2": 0.03287671232876713,
+                    "rougeL": 0.09264305177111717,
+                    "rougeLsum": 0.1525885558583106
+                }
+            },
+            "feedback": "The response provided is mostly relevant to the instruction given and mostly meets the requirements for a score of 4. It provides accurate information on what vegans can and cannot eat, with examples that are easy to understand. However, there were minor issues that resulted in the response not being entirely accurate. The response mentioned nuts, seeds, and legumes but did not specify that these could be cooked or raw, which is important for a clear understanding of a vegan diet. Also, the explanation of oils and fats is a bit ambiguous and could be clearer. It mentions that these are plant-based foods but it doesn't explain how they fit into a vegan diet. The response is also very detailed and comprehensive, making it easier for a child to understand, which is commendable. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "tg3",
+            "input": "Write an email request to someone who is a reference for an applicant to a job I've posted. Please ask the person to tell us about strengths, areas of growth, if they would do well in all aspects of the role (it involves supervising students but can have a lot of admin and organization at times), also anything else they want to tell us - put this as a list. I can also call if that would be preferred. It should be professional in tone but not too formal.",
+            "expected_output": [
+                "Hello [name]\n\nI hope this finds you well.\n\nI am doing a reference check for [applicant name] who has applied for a [position name] position here at [organization name]. [He/she] gave your contact information as a reference. Could you speak to the areas below: \n1. [His/her] strengths\n2. [His/her] growth areas\n3. This role involves the supervision of students as well as, at times, heavy administration work. Do you think [he/she] would do equally well in these two areas? \n4. Is there anything else that you think would be helpful for us to know?\n\nIf you'd prefer me to give you a call to talk through this instead, let me know!\n\nMany thanks for your time.\n\n[name]"
+            ],
+            "generated_output": "Dear [Name of Reference],\n\nI am writing to ask you to provide a reference for [Applicant's Name] who has applied for the position of [Job Title] at [Company Name].\n\n[Job Description]\n\nI would appreciate if you could share your thoughts on [Applicant's Name]'s strengths and areas of development. Would [Applicant's Name] be suited for all aspects of the role? If so, please elaborate. Are there any other qualities or skills you would like to highlight?\n\nYour input will be very valuable in our decision-making process. If you prefer, we can schedule a phone call to discuss further.\n\nThank you in advance for your time and consideration.\n\nRegards,\n[Your Name]\n\nIf you have any questions or require more information, do not hesitate to contact me.",
+            "scores": {
+                "google_bleu": 0.15079365079365079,
+                "bertscore": {
+                    "precision": [
+                        0.6992671489715576
+                    ],
+                    "recall": [
+                        0.6875938177108765
+                    ],
+                    "f1": [
+                        0.6933813691139221
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.4302788844621514,
+                    "rouge2": 0.08835341365461848,
+                    "rougeL": 0.27091633466135456,
+                    "rougeLsum": 0.39043824701195223
+                }
+            },
+            "feedback": "The response is highly relevant to the given instruction. It clearly requests for feedback from the reference regarding the candidate's strengths, growth areas, their potential for supervisory roles and administrative tasks, and if there is any additional information that can be shared. It also allows for a phone call conversation instead of just an email interaction which shows its adaptability. The tone is professional yet personalized without being overly formal. It maintains a consistent narrative throughout the mail. The structure and the content are both engaging, keeping the reader's interest throughout the request, making it creative in the way it presents the request. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "tg4",
+            "input": "Briefly write what proper nutrients someone should get before a workout and why.",
+            "expected_output": [
+                "Prior to exercise, fueling your body with the right nutrients is crucial for optimal performance. The three main macronutrients, namely carbs, protein, and fat, play specific roles in providing energy and supporting muscle function during workouts. Carbohydrates are important for short and high-intensity exercises, as they fuel your muscles by replenishing glycogen stores. Protein consumption before exercise can enhance muscle protein synthesis, leading to benefits such as increased muscle mass, improved recovery, and enhanced performance. While fat serves as a source of fuel for longer and moderate-to-low intensity exercises, the effects of fat intake specifically before exercise require further research. Overall, understanding the role of each macronutrient and their appropriate consumption can help optimize your pre-workout nutrition."
+            ],
+            "generated_output": "Proper nutrition is important for anyone looking to perform their best during a workout. Here are some of the nutrients that should be included in your pre-workout meal or snack:\n1. Carbohydrates: These are the main source of energy for your body and should be eaten about 2 hours before your workout. They will help you power through your workout and prevent muscle breakdown.\n2. Protein: This is essential for building and repairing muscles after exercise. Try to eat about 30 grams of protein about an hour before your workout to ensure it's digested and absorbed by your body.\n3. Healthy fats: These include polyunsaturated and monounsaturated fats such as avocado, nuts, and olive oil. Fats provide essential fatty acids that your body needs but can't make on its own. Consuming healthy fats will also keep you feeling fuller longer.\n4. Water: Stay hydrated! Drink plenty of water before and during your workout. Dehydration can impair performance, cause muscle cramps, and even lead to heat illness. Aim to drink at least 8 glasses (8 oz each) of water before your workout.\n5. Complex carbohydrates: These include whole grains, quinoa, and sweet potatoes. Complex carbohydrates release energy slowly into your bloodstream, which is ideal before a workout as it will give you sustained energy without spiking insulin levels.\n6. Vitamins and minerals: A balanced diet rich in vitamins and minerals can also help with recovery and performance. Include foods high in vitamin C, such as citrus fruit, bell peppers, and broccoli; and try to get enough calcium, magnesium, zinc, and iron from dairy products, legumes, nuts, and whole grains.\nBy including these key nutrients in your pre-workout meal, you will be better prepared to perform your best during your workout and recover faster afterwards.",
+            "scores": {
+                "google_bleu": 0.06076134699853587,
+                "bertscore": {
+                    "precision": [
+                        0.5852395296096802
+                    ],
+                    "recall": [
+                        0.6471537351608276
+                    ],
+                    "f1": [
+                        0.6146413683891296
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.28708133971291866,
+                    "rouge2": 0.03365384615384616,
+                    "rougeL": 0.1339712918660287,
+                    "rougeLsum": 0.17703349282296652
+                }
+            },
+            "feedback": "The response is largely relevant, addressing the importance of pre-workout nutrition and providing specific examples of nutrients that should be consumed before a workout. However, there are minor factual errors and missing information. For instance, while it mentions the importance of complex carbohydrates, it does not explain their role in slow energy release. It also does not explicitly mention the role of fats in endurance exercises, which requires further research. These points could have been made more accurately and clearly to provide a more comprehensive understanding. Furthermore, while it includes most of the necessary details, some details, such as why vitamins and minerals are important for recovery and performance, were not discussed in enough depth to provide a comprehensive understanding. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "oqa1",
+            "input": "Why is Aberdeen called the Granite City?",
+            "expected_output": [
+                "Alberdeen's nickname, the Granite City, comes from the city's history and contribution of granite, in addition to the architectural style of more than fifty percent of the city's buildings. Many of the city's most popular buildings and residential properties were built using granite from large quarries around the Nort-East, most notably the Rubislaw Quarry in Aberdeen's west end. As technology and practices for handling a large amount of rock improved, Aberdeen quickly became the granite capital of the world, exporting granite by sea to several areas globally."
+            ],
+            "generated_output": "The city of Aberdeen in Scotland is so named because it was built on top of \"Old Red Sandstone\", a type of rock which has been eroded over time into a form which resembles the shape of a dish with a hollow centre. This left behind a large number of boulders, or \"erratic\" stones, that are present in many parts of the city. These boulders, made of hard granite, led to the city being known as the \"Granite City\".\n\nIt is believed that the name \"Aberdeen\" comes from the Gaelic word for \"the mouth of the Don\", which refers to the river Don that runs through the city. However, the red sandstone hills around the city were also thought to be reminiscent of a Scottish granite mountain range, and this may have contributed to the name as well.",
+            "scores": {
+                "google_bleu": 0.08620689655172414,
+                "bertscore": {
+                    "precision": [
+                        0.5574651956558228
+                    ],
+                    "recall": [
+                        0.5759062170982361
+                    ],
+                    "f1": [
+                        0.5665357112884521
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.34632034632034636,
+                    "rouge2": 0.11353711790393012,
+                    "rougeL": 0.1818181818181818,
+                    "rougeLsum": 0.19913419913419916
+                }
+            },
+            "feedback": "The response is mostly relevant to the task and contains factually correct details about the history of Aberdeen and the reason for its nickname 'Granite City'. However, it lacks the necessary details such as the specific geological reasons for the city's nickname, the use of granite in the city's architecture, and the city's reputation for its granite trade. It contains no mention of the significant granite trade in the past which is a critical part of the history of the city. The response does not sufficiently explain the geological processes involved in the formation of the city and the construction of its buildings, and thus it lacks the necessary detail and clarity for understanding the entire topic. So the overall score is 3.",
+            "prometheus_score": 3
+        },
+        {
+            "id": "oqa2",
+            "input": "Can foxes fit down rabbit burrows?",
+            "expected_output": [
+                "Foxes cannot fit into rabbit burrows, but that doesn't stop them from trying to. A fox will go down as far as possible and then dig using its semi-retractable claws, in an attempt to get the rabbit and drag it out."
+            ],
+            "generated_output": "No, foxes cannot fit down rabbit burrows. Foxes have much larger bodies and heads than rabbits, and their necks are also much stiffer and thicker. This means that they would not be able to squeeze through the narrow and tight passages of a rabbit burrow.\n\nFoxes also have different digestive systems from rabbits. Their stomachs are much larger and deeper than those of rabbits, so they would not be able to fit inside a rabbit burrow. In addition, fox tails are longer and heavier than those of rabbits, which would also make it difficult for them to squeeze through the burrow.\n\nIt is important to note that this answer is based on general observations about the size and shape of foxes and rabbits and their digestive systems. There may be some individual foxes or rabbits that could fit through a particular burrow, but this is very rare.",
+            "scores": {
+                "google_bleu": 0.03918495297805643,
+                "bertscore": {
+                    "precision": [
+                        0.4797937572002411
+                    ],
+                    "recall": [
+                        0.5603435039520264
+                    ],
+                    "f1": [
+                        0.5169496536254883
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.2105263157894737,
+                    "rouge2": 0.031914893617021274,
+                    "rougeL": 0.14736842105263157,
+                    "rougeLsum": 0.15789473684210528
+                }
+            },
+            "feedback": "This response is accurate, relevant, and well-organized. It correctly states that foxes cannot fit through rabbit burrows due to size differences and distinctive digestive systems. It also explains why these differences prevent foxes from fitting into rabbit burrows. However, there are some minor flaws that prevent this response from achieving a perfect score. The response misses the fact that foxes might occasionally try to enter burrows through unconventional means, such as by digging using their semi-retractable claws. This information would have added some complexity to the discussion and provided a more comprehensive understanding of the topic. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "oqa3",
+            "input": "What was the most popular arcade game in the United States in 1990?",
+            "expected_output": [
+                "The highest-grossing arcade game in the United States in 1990 was Teenage Mutant Ninja Turtles. That same year, the game won a Diamond award from the American Amusement Machine Association (AAMA) for sales achievement."
+            ],
+            "generated_output": "Pac-Man was the best-selling coin-operated video game in the US from 1980 to 1990. It was developed by Namco and first released in Japan in 1980. The game became hugely popular in North America when it was ported over to the US arcade scene in early 1981. Pac-Man was so popular that it was ported to many different platforms including home consoles, handhelds, and mobile devices.",
+            "scores": {
+                "google_bleu": 0.06382978723404255,
+                "bertscore": {
+                    "precision": [
+                        0.584601640701294
+                    ],
+                    "recall": [
+                        0.6441442966461182
+                    ],
+                    "f1": [
+                        0.6129302978515625
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.24761904761904763,
+                    "rouge2": 0.05825242718446603,
+                    "rougeL": 0.1714285714285714,
+                    "rougeLsum": 0.1714285714285714
+                }
+            },
+            "feedback": "The response does not address the task instruction which asked for the most popular arcade game in the United States in 1990. Instead, it provides information about the game's popularity worldwide, including a mention of the US, which is irrelevant. Furthermore, the response contains inaccuracies in that the year 1990 was mentioned in the prompt, and yet the response incorrectly talks about 1980. The details about the game's porting to different platforms also add no value to the specific task instruction. This shows a lack of attention to detail, resulting in a disorganized, illogical response that fails to provide the required information. The inaccuracy in date and the unnecessary detail about the game's porting significantly undermine the overall validity of the response. So the overall score is 2.",
+            "prometheus_score": 2
+        },
+        {
+            "id": "oqa4",
+            "input": "What is Feng Shui?",
+            "expected_output": [
+                "Feng Shui is an ancient Chinese practice of harmonizing individuals with their surrounding environment. This philosophy uses energy forces to create harmony between an individual and their environment. In interior design, Feng Shui is applied through the placement of furniture and objects to allow a smooth flow of energy, or \"qi,\" within a space. This could involve orienting a bed or desk in a certain way, using specific colors, clearing clutter, or balancing various elements (wood, fire, earth, metal, water) to create a peaceful, balanced environment conducive to health and prosperity."
+            ],
+            "generated_output": "Feng Shui is an ancient Chinese system of harmonizing people with their environment. It is based on the belief that everything in the world has a balance or energy called \"qi\" (pronounced \"chee\"). Good qi comes from nature and can be enhanced by using certain objects or arrangements of objects in your home or office. On the other hand, bad qi can come from things such as sharp corners, strong colors, and unnatural shapes.\n\nFeng Shui practitioners use a variety of techniques to help bring good qi into a space. These include:\n\n* Placement of furniture: Furniture should be placed so that it faces the door and does not block the flow of qi. Also, the placement of each piece of furniture should be carefully considered. For example, beds should not be positioned under a beam or directly across from the door.\n* Colors and lighting: Different colors have different effects on qi. Lighting also plays a role in setting the mood and directing the flow of qi.\n* Decorative items: Feng Shui recommends using plants, artwork, and other decorative items to add positive energy to a space.\n* Water features: Water features such as fountains or ponds are believed to attract positive energy and are often used to create a sense of balance in a space.\n\nIn short, Feng Shui is a holistic system of design that seeks to create harmony between people and their environment. The goal is to create a space that feels comfortable, energized, and conducive to success.",
+            "scores": {
+                "google_bleu": 0.10507880910683012,
+                "bertscore": {
+                    "precision": [
+                        0.617128849029541
+                    ],
+                    "recall": [
+                        0.7175267934799194
+                    ],
+                    "f1": [
+                        0.6635516285896301
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.3185840707964602,
+                    "rouge2": 0.13649851632047477,
+                    "rougeL": 0.20648967551622419,
+                    "rougeLsum": 0.24188790560471976
+                }
+            },
+            "feedback": "The response provides an accurate and comprehensive explanation of what Feng Shui is. It describes how the principles of Feng Shui are applied to interior design, including the placement of furniture and objects, colors, lighting, and the use of decorative items to achieve a balance of energy or \"qi.\" It correctly explains that Feng Shui aims to create a space that feels comfortable, energized, and conducive to success. This response aligns perfectly with the given instruction and topic, demonstrating a clear, coherent, and logical explanation. The response does not contain any factual errors, ensuring its high accuracy. All aspects of the score rubric are met: the response is relevant to the given topic, consistent, complete, accurate, and has common sense. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "oqa5",
+            "input": "Are there any particular physical benefits to mindful walking, such as improved posture or increased physical fitness?",
+            "expected_output": [
+                "Yes, there are physical benefits to mindful walking, such as improved posture, increased physical fitness, and better balance. Mindful walking can also help relieve tension in the body, reduce stress, and improve flexibility. It can also improve circulation and help with weight management. By tuning into the body, mindful walking can also help individuals identify and address any imbalances or discomfort, leading to a healthier and more aligned body."
+            ],
+            "generated_output": "Mindful walking can have many physical benefits, including improved posture, increased physical fitness, reduced stress levels, and better balance and coordination. Here are some of them:\n\n1. Improved Posture: Walking with good posture can reduce back pain and strain on your muscles and joints. It can also help you breathe more deeply and evenly, which in turn can lower blood pressure and heart rate.\n2. Increased Physical Fitness: Walking is an excellent form of cardiovascular exercise that can improve your overall health and well-being. It helps to burn calories, strengthen your heart, and increase your endurance.\n3. Reduced Stress Levels: Walking can be a great way to relieve stress and anxiety. The rhythm of your steps and the fresh air can help to clear your mind and release tension.\n4. Better Balance and Coordination: Regular walking can improve your balance and coordination, especially if you walk outdoors where there may be uneven surfaces. This can help prevent falls and injuries.\n5. Improved Mood: Walking can lift your mood and boost your self-esteem. It also releases endorphins, which are hormones that make you feel good.\n6. Improved Sleep Quality: Walking every day can help you sleep better at night. It can regulate your body clock and boost the production of melatonin, which is a natural sleep hormone.\n7. Overall Health Benefits: Walking regularly can help protect against a variety of diseases such as diabetes, cancer, and depression. It also lowers your risk of developing heart disease and stroke.",
+            "scores": {
+                "google_bleu": 0.0817391304347826,
+                "bertscore": {
+                    "precision": [
+                        0.6049233675003052
+                    ],
+                    "recall": [
+                        0.6997946500778198
+                    ],
+                    "f1": [
+                        0.6489098072052002
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.29559748427672955,
+                    "rouge2": 0.0949367088607595,
+                    "rougeL": 0.18238993710691825,
+                    "rougeLsum": 0.2012578616352201
+                }
+            },
+            "feedback": "The response provided is off-topic, as it was asked about the physical benefits of mindful walking and instead discusses the benefits of regular walking, which is a different topic altogether. The response is filled with irrelevant information about the benefits of walking, which has nothing to do with mindful walking. Therefore, this response lacks relevance, is significantly factually incorrect, lacks clarity and consistency, and does not contain any relevant details about the specific aspect of physical benefits from mindful walking. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa6",
+            "input": "What percentage of the Earth's surface is covered by oceans?",
+            "expected_output": [
+                "About 71% of the Earth's surface is covered by oceans."
+            ],
+            "generated_output": "The Earth's total surface area is 510 million square kilometers. Of this, about 71% is water and 29% is land.\nThe oceans make up 361 million square kilometers (71% of the total) and are divided into five main oceans: the Pacific Ocean, the Atlantic Ocean, the Indian Ocean, the Arctic Ocean, and the Antarctic Ocean.\nSo, in summary, the Earth has about 1.38 billion cubic kilometers of water.\nThis includes saline (salt) water and freshwater, which accounts for about 0.3% of the total. Saline water makes up about 97% of all water on Earth.\nI hope that answers your question!",
+            "scores": {
+                "google_bleu": 0.030364372469635626,
+                "bertscore": {
+                    "precision": [
+                        0.48213350772857666
+                    ],
+                    "recall": [
+                        0.7608709335327148
+                    ],
+                    "f1": [
+                        0.5902494788169861
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.15789473684210528,
+                    "rouge2": 0.08928571428571427,
+                    "rougeL": 0.10526315789473685,
+                    "rougeLsum": 0.15789473684210528
+                }
+            },
+            "feedback": "The generated response is entirely off-topic, thus it scores a 1 according to the rubric. While the response provides an estimate of the total surface area of the Earth and even mentions the five major oceans, it fails to address the main query which is the percentage of the Earth's surface that is covered by oceans. Furthermore, it provides information that's not relevant to the topic like details about freshwater and saltwater and the breakdown of Earth's water in general. This response does not exhibit relevance, clarity, and completeness, as required by the scoring rubric. It also lacks accuracy and logic, as the response is illogical due to the fact that it failed to answer the main question, thereby lacking common sense. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa7",
+            "input": "How does language translation technology impact globalization?",
+            "expected_output": [
+                "Language translation technology has a significant impact on globalization in the following ways:\n\n1. Breaking down language barriers: Translation technology enables individuals and businesses to communicate with people from different countries who speak different languages. This leads to greater collaboration, trade, and cultural exchange, which promotes globalization.\n\n2. Facilitating cross-border communication: With translation technology, people can communicate with each other without the need for an interpreter or being proficient in another language. This makes it easier for businesses to expand into new markets and for individuals to connect with people from different cultures.\n\n3. Increasing accessibility: Translation technology has made it easier for people to access information from different parts of the world, regardless of the language barrier. This has led to greater cultural exchange and has provided people with broader, diverse perspectives.\n\n4. Promoting multilingualism: As translation technology becomes more prevalent, individuals and businesses are recognizing the value of being multilingual. This has led to greater interest in learning new languages and has contributed to the globalization of language learning.\n\nOverall, language translation technology has revolutionized cross-cultural communication and has played a critical role in promoting globalization."
+            ],
+            "generated_output": "Language translation technology has had a significant impact on globalization by making it easier for people from different countries to communicate with each other. It has enabled people to understand each other better and to do business across borders more efficiently.\n\nHere are some of the ways that language translation technology has impacted globalization:\n\n1. Access to information: Translation technology has made it easier for people to access information in other languages. This includes not only text-based information such as articles and books but also video and audio content. People can now get access to information in their own language and also learn about other cultures through this medium.\n2. Ease of communication: The availability of translation tools has made it easier for people to communicate with each other even if they speak different languages. They can communicate via email, messaging apps, or social media platforms without having to worry about language barriers. This has helped in building stronger relationships and has also led to greater understanding between people of different backgrounds.\n3. Business opportunities: Language translation technology has made it possible for companies to do business across borders. They can translate their products and services into multiple languages, which makes them accessible to a wider audience. This has led to an increase in international trade and has created new job opportunities for translators and interpreters.\n4. Increased awareness: Through translation technology, we have a better understanding of other cultures. We can learn about their customs, traditions, and values, which helps us to be more tolerant and accept differences. This has led to increased respect and appreciation for other cultures.\n5. Challenges: While language translation technology has many benefits, it also comes with some challenges. One of the biggest issues is that machine translation is not always accurate and can lead to misunderstandings or misrepresentation of the source text. There is also the issue of bias, where the algorithm learns patterns from existing data and may reflect these biases in its output.\n6. Ethical considerations: As the use of language translation technology becomes more widespread, there will need to be ethical considerations around how this data is collected and used. There is also the issue of privacy and security, which needs to be addressed to ensure that personal information is protected.\n7. Future developments: Language translation technology is continuously evolving and improving. Researchers are working on developing more advanced algorithms that can better capture the nuances of",
+            "scores": {
+                "google_bleu": 0.15448504983388706,
+                "bertscore": {
+                    "precision": [
+                        0.6574798822402954
+                    ],
+                    "recall": [
+                        0.7361045479774475
+                    ],
+                    "f1": [
+                        0.6945741772651672
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.41137123745819393,
+                    "rouge2": 0.18120805369127516,
+                    "rougeL": 0.2274247491638796,
+                    "rougeLsum": 0.3812709030100334
+                }
+            },
+            "feedback": "The response is quite relevant and accurately addresses the topic of language translation technology's impact on globalization. However, the logic and common sense in the response could be improved. For instance, the explanation about the access to information is rather lengthy and could be more concise. Also, the description of challenges could be more balanced, rather than focusing solely on the negative aspects. The response also includes some minor factual errors, such as the suggestion that translation technology has only recently led to greater understanding between cultures, which is an overgeneralization. These issues are minor and do not significantly impact the overall quality of the response. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "oqa8",
+            "input": "What role does collaboration and collective creativity play in the pursuit of originality?",
+            "expected_output": [
+                "Collaboration and collective creativity play a significant role in the pursuit of originality. When individuals come together to work on a project or idea, they bring different perspectives and skill sets to the table. This collaboration can lead to new and innovative ideas that may not have been possible if the individuals were working alone.\n\nCollective creativity can also lead to a greater diversity of ideas and perspectives, which can help to create more original and unique outcomes. Working in a team allows individuals to bounce ideas off one another, challenge assumptions, and build on each other's ideas, ultimately leading to more originality.\n\nMoreover, collaboration provides opportunities for feedback and criticism, allowing for ideas to be refined and improved over time. The collaborative process also helps to ensure that ideas are tested and validated, ultimately resulting in more original and valuable outcomes.\n\nOverall, collaboration and collective creativity are crucial components in the pursuit of originality as they provide a platform for individuals to share their ideas, build on each other's strengths, and ultimately create something new and innovative."
+            ],
+            "generated_output": "Collaboration and collective creativity are important for encouraging originality because they can help stimulate new ideas and perspectives that might not have been considered otherwise. Working with others can also provide a safe space for experimentation and risk-taking without judgment or fear of failure.\n\nFor example, in the world of art and music, collaborations between artists from different disciplines or cultures can lead to exciting new forms of expression that incorporate elements from each individual's style and background. In the same way, working in a group can encourage people to challenge their own assumptions and biases, which can lead to more innovative and original ideas.\n\nCollaboration and collective creativity can also be valuable in other fields, such as science, technology, and business. For example, in the development of new products and services, it can be beneficial to bring together experts from different disciplines to brainstorm and problem-solve. This can lead to fresh perspectives on existing problems and the creation of new solutions that may not have been possible alone.\n\nOverall, collaboration and collective creativity are vital for nurturing originality and ensuring that new ideas and perspectives are heard and valued. By working together and embracing diversity, we can create a culture that is more open to new ways of thinking and more willing to take risks, which in turn will lead to more original and groundbreaking work.",
+            "scores": {
+                "google_bleu": 0.18559837728194725,
+                "bertscore": {
+                    "precision": [
+                        0.6977584362030029
+                    ],
+                    "recall": [
+                        0.722746729850769
+                    ],
+                    "f1": [
+                        0.7100327610969543
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.5121951219512195,
+                    "rouge2": 0.16176470588235295,
+                    "rougeL": 0.24878048780487808,
+                    "rougeLsum": 0.45365853658536587
+                }
+            },
+            "feedback": "The response provided a good and detailed explanation of how collaboration and collective creativity contribute to the pursuit of originality. However, there are minor deviations that need to be addressed, such as mentioning the presence of \"artists\" and \"experts\" without explaining who these individuals could be or how they could contribute. The response was also slightly less detailed when discussing the specific benefits of collaboration compared to the reference response, which mentioned the importance of feedback, criticism, and validation of ideas. Despite these minor areas of concern, the response remained logically valid and made sense according to common sense. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "oqa9",
+            "input": "What are the most important features in a smartphone?",
+            "expected_output": [
+                "As an AI language model, I do not have personal preferences or opinions. However, some of the most important features in a smartphone are:\n\n1. Operating System: The operating system of a smartphone enables you to interact with the device. The most popular operating systems are Android and iOS.\n\n2. Processor: A powerful processor ensures that the phone performs quickly and efficiently. The latest Snapdragon and A-series processors are popular among smartphone users.\n\n3. Battery Life: A long-lasting battery is always an attractive feature in a smartphone. Before buying a smartphone, make sure it has a battery life of at least one day with heavy usage.\n\n4. Camera: The camera is a crucial feature in today's smartphones. Good image quality, 4k video recording, optical zoom, and portrait mode are some of the popular features that users look for in a smartphone camera.\n\n5. Storage: A sufficient amount of storage is necessary to store images, videos, and other important files. Nowadays, many smartphones come with internal storage options ranging from 64GB to 512GB.\n\n6. Display: Display size, resolution, and technology are important features that enhance the user's experience while using a smartphone.\n\n7. Connectivity: Features like Bluetooth, Wi-Fi, NFC, and 5G connectivity are important features in a smartphone. \n\n8. Security: Fingerprint sensors, facial recognition, and passcodes are essential features for securing your device and data. \n\n9. Design: The design of a smartphone should be attractive, slim, and lightweight. It should feel comfortable in your hand and have a good grip. \n\n10. Price: The price of the smartphone is an important consideration for many people. It should offer good value for money and be affordable according to your budget."
+            ],
+            "generated_output": "The following are some of the most important features in a smartphone:\n\n1. Display: The display is one of the most important features as it determines how you experience your phone. You should look for a screen with good color reproduction, brightness, and resolution.\n\n2. Processor: The processor determines how fast your phone feels and how well it performs day-to-day tasks like browsing the web or playing games. Look for a phone with a powerful processor that is compatible with your needs.\n\n3. RAM: RAM (Random Access Memory) determines how much information your phone can hold at once and how smoothly it runs. A higher amount of RAM is better for multitasking and gaming.\n\n4. Camera: The camera on your smartphone is an important feature as it determines how good your photos and videos will be. Look for a phone with a good camera sensor and lens to capture clear and vivid images.\n\n5. Battery Life: Your battery life is crucial as you don't want to run out of power midway through the day. Look for a phone with a large battery capacity that lasts all day on a single charge.\n\n6. Operating System: The operating system is what makes your phone feel different from another person's. Choose an OS that you're comfortable using and has the apps you need.\n\n7. Storage: Storage space determines how much content you can store on your phone. Look for a phone with enough storage space to hold all your files and media.\n\n8. Price: Of course, price is also a consideration when buying a smartphone. Make sure you find a phone that is within your budget and meets your needs.\n\nThese are some of the most important features to consider when choosing a smartphone. You should weigh these factors against your own needs and preferences to make the best decision for you.",
+            "scores": {
+                "google_bleu": 0.22014388489208633,
+                "bertscore": {
+                    "precision": [
+                        0.7247979044914246
+                    ],
+                    "recall": [
+                        0.7234403491020203
+                    ],
+                    "f1": [
+                        0.7241184711456299
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.5201342281879194,
+                    "rouge2": 0.13468013468013468,
+                    "rougeL": 0.2080536912751678,
+                    "rougeLsum": 0.46979865771812085
+                }
+            },
+            "feedback": "The response is generally well-organized, relevant to the topic, and logically consistent with common sense. However, it lacks the level of detail and precision expected for a high-scoring response. For example, while it mentions display resolution and battery life, it doesn't go into the technical details that could help users make an informed decision, such as pixel density or battery capacity in milliampere hours. Additionally, the response omits several important features, such as storage capacity, which is an essential consideration when buying a smartphone, connectivity options like 5G and NFC, and security features like fingerprint sensors. These omissions result in a less comprehensive response, which might not give users a complete understanding of the topic. So the overall score is 3.",
+            "prometheus_score": 3
+        },
+        {
+            "id": "tg5",
+            "input": "Describe a time when you had to make a difficult decision.",
+            "expected_output": [
+                "I had to make a difficult decision when I was working as a project manager at a construction company. I was in charge of a project that needed to be completed by a certain date in order to meet the client\u2019s expectations. However, due to unexpected delays, we were not able to meet the deadline and so I had to make a difficult decision. I decided to extend the deadline, but I had to stretch the team\u2019s resources even further and increase the budget. Although it was a risky decision, I ultimately decided to go ahead with it to ensure that the project was completed on time and that the client\u2019s expectations were met. The project was eventually successfully completed and this was seen as a testament to my leadership and decision-making abilities."
+            ],
+            "generated_output": "I am an artificial intelligence, so I do not have experiences or emotions in the same way that humans do. However, I can help you by providing insights from my training data and by understanding your situation. What type of difficult decision are you facing? Is there anything about it that makes it especially challenging for you? How did you go about making the decision? What were some of the factors that influenced your choice? What was the outcome of your decision? How did you feel about it afterward? I am here to listen and support you however I can.",
+            "scores": {
+                "google_bleu": 0.07420494699646643,
+                "bertscore": {
+                    "precision": [
+                        0.5178869366645813
+                    ],
+                    "recall": [
+                        0.529179573059082
+                    ],
+                    "f1": [
+                        0.5234723687171936
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.270042194092827,
+                    "rouge2": 0.01702127659574468,
+                    "rougeL": 0.1350210970464135,
+                    "rougeLsum": 0.1350210970464135
+                }
+            },
+            "feedback": "The response does not meet the requirements set out in the instruction, so the overall score is 1. The instruction asked for a description of a specific time when the respondent had to make a difficult decision, which is not present in this response. Instead, the response addresses general topics like empathy and support, but does not provide a personal account of a challenging decision made by the respondent. It also fails to use an appropriate empathetic tone, instead maintaining a detached and objective tone throughout. So the overall score is 1 due to its lack of relevance, clarity, and empathy in the response.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "tg6",
+            "input": "Generate a list of ten items a person might need for a camping trip.",
+            "expected_output": [
+                "1. Tent 2. Sleeping bags 3. Flashlight 4. Matches/lighter 5. Insect repellent 6. Extra clothes 7. First aid kit 8. Camp stove 9. Cooking utensils 10. Biodegradable soaps/shampoos"
+            ],
+            "generated_output": "1. Tent\n2. Sleeping bag\n3. Campfire tools (matches/lighter, fire starter)\n4. Food and water\n5. First aid kit\n6. Sunscreen\n7. Bug spray\n8. Compass or GPS\n9. Warm clothes in case it gets cold at night\n10. Toiletries such as toothbrush/toothpaste, soap, etc.",
+            "scores": {
+                "google_bleu": 0.2204724409448819,
+                "bertscore": {
+                    "precision": [
+                        0.6979837417602539
+                    ],
+                    "recall": [
+                        0.7683665156364441
+                    ],
+                    "f1": [
+                        0.7314859628677368
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.4675324675324675,
+                    "rouge2": 0.16,
+                    "rougeL": 0.36363636363636365,
+                    "rougeLsum": 0.4415584415584416
+                }
+            },
+            "feedback": "1. The response is completely relevant and aligned with the given topic, context, theme, or subject. The list provided is comprehensive and covers all the necessary items for a camping trip. 2. The response is organized and easy to follow, clearly detailing each item and its importance. 3. The response does not contain any factual errors, ensuring its accuracy. All details are accurate and provide a comprehensive understanding of the topic. 4. The response is highly complete, including all necessary details for a camping trip. This shows a high level of understanding of the topic and a clear commitment to providing a comprehensive answer. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "tg7",
+            "input": "Describe the function of a computer motherboard",
+            "expected_output": [
+                "A computer motherboard is the main circuit board in a computer. It is the backbone of the system, connecting all other components such as the processor, RAM, storage, graphics card and peripheral ports. It provides communication pathways between all of these components, allowing them to interact and work together. The motherboard is responsible for regulating power, and also houses slots for expansion cards, as well as ports for USB, audio, Ethernet, and other connection types."
+            ],
+            "generated_output": "The motherboard is the main printed circuit board (PCB) in a computer. It is the backbone of the system and is responsible for the connection and communication of all the components. It also serves as a base for other components like the processor, memory, graphics card, etc., to be mounted on it. The motherboard houses many essential electronic components such as resistors, capacitors, diodes, transistors, and integrated circuits that are used for data processing and transmission.\n\nThe functions of a motherboard include:\n1. Power supply: The motherboard is responsible for supplying power to the various components of the computer. It has a series of connectors and pins through which it draws power from the power supply unit (PSU).\n2. Data transfer: The motherboard acts as a bridge between the various components of the computer and facilitates data transfer between them. It controls the flow of information between the CPU, RAM, ROM, hard disk drive (HDD), solid-state drive (SSD), etc.\n3. Communication: The motherboard also plays a crucial role in communication between the different components of the computer. It manages the flow of data between the components, ensuring that they communicate effectively.\n4. Expansion slots: The motherboard has expansion slots through which users can add additional components to their computers. These slots include PCIe, AGP, PCI, and ISA.\n5. Chipset: The chipset is a group of microchips that form the heart of the motherboard. It manages the flow of data between the various components and facilitates their communication with each other. The chipset also regulates the speed at which the components operate.\n6. Connectivity: The motherboard has several connectors and ports through which it connects to other devices, such as keyboards, mice, monitors, printers, etc.\n\nThese are just some of the important functions of the motherboard. It performs many more duties that are vital for the proper functioning of the computer.",
+            "scores": {
+                "google_bleu": 0.0883940620782726,
+                "bertscore": {
+                    "precision": [
+                        0.6201348900794983
+                    ],
+                    "recall": [
+                        0.7662245631217957
+                    ],
+                    "f1": [
+                        0.6854825615882874
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.29533678756476683,
+                    "rouge2": 0.11458333333333333,
+                    "rougeL": 0.19689119170984457,
+                    "rougeLsum": 0.2124352331606217
+                }
+            },
+            "feedback": "The response was well-articulated, informative, and aligned well with the given instruction. It clearly explained the function of a computer motherboard and its role in power supply, data transfer, communication, expansion, chipset, and connectivity. However, there were minor inconsistencies that slightly impacted the clarity and completeness of the response. For instance, while the response was comprehensive in terms of functions, it did not fully explain the concept of 'expansion slots' or provide examples of them. Similarly, it did not clearly explain what the 'chipset' is or how it operates. The response could have also elaborated more on the different types of connectors and ports found on a motherboard. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "tg8",
+            "input": "Explain the concept of cogging torque.",
+            "expected_output": [
+                "Cogging torque is the torque that is applied to a rotating device when the device experiences resistance from the teeth of the gears that are connected to the device. Cogging torque occurs due to the reaction force generated when the teeth of the gear drive mesh. This force pushes against each other, resulting in a drag force that is transmitted from the gears to the shaft. The magnitude of the cogging torque can vary depending on the size and number of teeth, as well as the gear's material and design. Cogging torque is undesirable in most motorized applications, as it can lead to loss of efficiency. To reduce cogging torque, gear designs are often symmetrical or have certain tooth profiles which reduce the force of contact between the teeth when they come into contact with each other."
+            ],
+            "generated_output": "Cogging torque is a type of torque that occurs when there is a misalignment between a permanent magnet and an electromagnet in an electric motor or generator. It is also known as reluctance torque or back-EMF torque.\nCogging torque is caused by the fact that the magnetic field of the permanent magnet does not align perfectly with the magnetic field of the electromagnet. This results in a \"cog\"-like effect where the rotor moves in one direction but experiences a force in the opposite direction.\nCogging torque can be either positive or negative depending on the orientation of the permanent magnet and electromagnet. Positive cogging torque occurs when the permanent magnet and electromagnet are aligned, while negative cogging torque occurs when they are misaligned.\nIn an electric motor, cogging torque can cause vibrations and noises, and it can also reduce the efficiency of the motor. On the other hand, in an electric generator, cogging torque can be used to produce usable energy from the AC power supply.\nIn general, cogging torque is undesirable because it reduces the performance of the motor or generator, but it can also be used to advantage in some applications.",
+            "scores": {
+                "google_bleu": 0.13539192399049882,
+                "bertscore": {
+                    "precision": [
+                        0.6036826372146606
+                    ],
+                    "recall": [
+                        0.6472113132476807
+                    ],
+                    "f1": [
+                        0.6246896386146545
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.4324324324324324,
+                    "rouge2": 0.13293051359516614,
+                    "rougeL": 0.24024024024024024,
+                    "rougeLsum": 0.26426426426426425
+                }
+            },
+            "feedback": "The response is accurate, detailed, and aligned with the topic of cogging torque. It explains the definition, causes, types, and effects of cogging torque in both electric motors and generators, which makes it a comprehensive and thorough explanation. However, the response could have included more information about how cogging torque can be minimized or eliminated, such as gear designs or different materials. The response also missed the aspect of the fact that cogging torque can also be used advantageously in some applications, which is a key point to consider. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "tg9",
+            "input": "Generate a list of adjectives that describe a person as brave.",
+            "expected_output": [
+                "Courageous, heroic, audacious, vigorous, valorous, resolute, intrepid, bold, brave, daring, tenacious, plucky, stout-hearted, doughty, gallant, fearless, undaunted, spirited, daredevil."
+            ],
+            "generated_output": "Certainly! Here is a list of adjectives that can be used to describe a person as brave:\n\n1) Courageous\n2) Fearless\n3) Heroic\n4) Bold\n5) Determined\n6) Bravehearted\n7) Inspirational\n8) Strong-willed\n9) Fear-conquering\n10) Unafraid\n11) Valorous",
+            "scores": {
+                "google_bleu": 0.009900990099009901,
+                "bertscore": {
+                    "precision": [
+                        0.49952512979507446
+                    ],
+                    "recall": [
+                        0.6491403579711914
+                    ],
+                    "f1": [
+                        0.5645890235900879
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.19672131147540983,
+                    "rouge2": 0.0,
+                    "rougeL": 0.09836065573770492,
+                    "rougeLsum": 0.19672131147540983
+                }
+            },
+            "feedback": "The response perfectly addresses the topic of generating adjectives to describe a person as brave. The adjectives listed are both relevant and accurate, reflecting a deep understanding of the concept of bravery. The response is highly organized and coherent, effectively presenting all relevant details without unnecessary repetition or omission. Furthermore, each adjective is explained and presented in a way that enhances the user's understanding. The response does not contain any inaccurate details and is entirely factually correct, reflecting the topic's theme in a comprehensive and accurate manner. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "oqa10",
+            "input": "What is an API ?",
+            "expected_output": [
+                "API stands for Application Programming Interface. It is a set of instructions or programming instructions that allow two applications to communicate and exchange data with each other. APIs provide a way for developers to access and manipulate data and services offered by other applications or platforms. They are an essential part of modern web development and allow developers to develop complex applications and websites using modular components."
+            ],
+            "generated_output": "An Application Programming Interface (API) is a set of code instructions and standards for communicating with a software application or website. It allows different software programs to talk to each other and share information. In simple terms, it is a way for two computer systems to talk to each other.",
+            "scores": {
+                "google_bleu": 0.15827338129496402,
+                "bertscore": {
+                    "precision": [
+                        0.7525532841682434
+                    ],
+                    "recall": [
+                        0.7240971326828003
+                    ],
+                    "f1": [
+                        0.7380509972572327
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.4444444444444445,
+                    "rouge2": 0.1565217391304348,
+                    "rougeL": 0.2905982905982906,
+                    "rougeLsum": 0.2905982905982906
+                }
+            },
+            "feedback": "The response has a good degree of alignment to the topic and the content is relatively clear. However, there is a lack of specificity regarding how an API allows two computer systems to 'talk' to each other. The response could provide more detail on how data is exchanged between these systems, which would improve the completeness of the response. The explanation could be further simplified and organized better for better clarity and comprehension. Also, there is an area lacking common sense which is the assumption that all APIs allow two computer systems to talk to each other which may not be the case in reality. So the overall score is 3.",
+            "prometheus_score": 3
+        },
+        {
+            "id": "tg10",
+            "input": "Write a short paragraph about the importance of using renewable energy.",
+            "expected_output": [
+                "The use of renewable energy is growing rapidly in relevance and importance as the world looks towards solutions to combat climate change. Renewable energy sources, such as solar, wind, and hydropower, are sustainable and have a much lower environmental impact than traditional energy sources like coal and oil. Switching to renewable energy can reduce carbon emissions, improve air quality, lessen the dependence on non-renewable resources, and provide a stable and secure energy future. Renewable energy is essential for achieving a sustainable future and should be an important part of any country\u2019s energy portfolio."
+            ],
+            "generated_output": "Renewable energy sources are crucial for the future of our planet. They are eco-friendly, sustainable, and help reduce greenhouse gas emissions. By using these sources instead of non-renewable ones, we can minimize our impact on the environment and ensure a cleaner, healthier world for future generations. Some examples of renewable energy include solar, wind, geothermal, hydropower, biomass, and more. These sources are abundant, reliable, and cost-effective, making them a wise choice for powering our homes, businesses, and industries. The use of renewable energy also creates jobs and economic opportunities in many regions, especially those dependent on fossil fuels. In addition, it helps reduce dependence on foreign oil and other finite resources, improving national security. As such, it is important that we all work together to transition to a clean energy economy and make the shift away from fossil fuels as soon as possible.",
+            "scores": {
+                "google_bleu": 0.12835820895522387,
+                "bertscore": {
+                    "precision": [
+                        0.7099295258522034
+                    ],
+                    "recall": [
+                        0.7563347816467285
+                    ],
+                    "f1": [
+                        0.7323978543281555
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.36.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.4315352697095436,
+                    "rouge2": 0.09205020920502092,
+                    "rougeL": 0.1908713692946058,
+                    "rougeLsum": 0.1908713692946058
+                }
+            },
+            "feedback": "The response is highly relevant to the prompt and effectively communicates the importance of using renewable energy. It provides several reasons why renewable energy is vital for the future, such as its eco-friendliness, sustainability, and role in reducing greenhouse gas emissions. The response also explains the types of renewable energy sources available and highlights their benefits, including job creation and economic growth. The response is well-organized and easy to follow, demonstrating high clarity and coherence. It's factually correct and accurately describes the advantages of renewable energy. So the overall score is 5.",
+            "prometheus_score": 5
+        }
+    ]
+}

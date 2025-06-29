@@ -1,0 +1,625 @@
+{
+    "model_name": "01-ai/Yi-6B",
+    "result": [
+        {
+            "id": "tg1",
+            "input": "I need an 80s sci-fi fantasy character introduction for my newest novel. The main character\u2019s name is Drake, and the year is 3098.",
+            "expected_output": [
+                "The flashing neon lights bounced off Drake\u2019s face as he stepped out of the shadows. As a rogue bounty hunter, there was nothing Drake feared, and the scar covering his left eye proved this even further. \n\nHe had otherworldly energy about him, his electric undercut framing his face. His lone eye was like a star, burning wildly in his journey to find out the truth regarding his family. As he walked through the streets, heads turned in awe\u2014this hero was synonymous with hope for the people and the city, as 3098 was the universe\u2019s most dangerous year.\n\nIn Drake\u2019s holster was a next-generation laser pistol capable of exterminating dangerous cyborgs in just one good shot. It was clear Drake was fighting on the side of humanity, clinging to hope that his own agenda would someday be fulfilled."
+            ],
+            "generated_output": "\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\nI\u2019m looking for a name that is a little bit more unique than the usual sci-fi names.\n",
+            "scores": {
+                "google_bleu": 0.021505376344086023,
+                "bertscore": {
+                    "precision": [
+                        0.3678961396217346
+                    ],
+                    "recall": [
+                        0.3448582589626312
+                    ],
+                    "f1": [
+                        0.35600489377975464
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.07197943444730077,
+                    "rouge2": 0.0,
+                    "rougeL": 0.07197943444730077,
+                    "rougeLsum": 0.030848329048843184
+                }
+            },
+            "feedback": "The given response does not meet any of the scoring criteria in the rubric, hence it scores a 1. There is no alignment with the given prompt or topic, there is no creativity, and there is no consistency. The instructions asked for an 80s sci-fi fantasy character introduction for a new novel. Instead, the response is repetitive and devoid of any character description, setting, or context, which are all critical elements in a character introduction. Also, the tone of the response is extremely dull and lacks any kind of excitement or imaginative thinking. No effort was made to connect the response to the requested genre or context. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "tg2",
+            "input": "Can you please explain what vegans eat and don\u2019t eat to a child? Use specific examples of the foods they can and cannot eat.",
+            "expected_output": [
+                "People who eat a vegan diet do not eat any food that is made from or by an animal. That means they do not eat meat or fish, like chicken, turkey sandwiches, tuna, or hamburgers. And because chickens make eggs and cows and sheep make milk and cheese, they don\u2019t eat those things either. Vegans eat vegetables, fruits, beans, and grains, like pasta and rice."
+            ],
+            "generated_output": "\nA: Vegans do not eat any foods that come from animals. This means no meat, fish, poultry, eggs, or dairy products. Vegans also do not eat foods that are made from these products, such as butter, cheese, or milk. Vegans eat a variety of plant-based foods, including fruits, vegetables, grains, legumes, nuts, and seeds.\nQ: What are some common misconceptions about vegans?\nA: Some common misconceptions about vegans include the belief that they are unhealthy, that they are not able to get enough protein, and that they are not able to eat a variety of foods.\nQ: What are some benefits of being a vegan?\nA: Some benefits of being a vegan include a reduced risk of heart disease, diabetes, and cancer, as well as a lower environmental impact. Vegans also tend to have a lower body mass index (BMI) and a lower risk of obesity.\nQ: What are some challenges of being a vegan?\nA: Some challenges of being a vegan include finding vegan-friendly restaurants and grocery stores, as well as dealing with family and friends who may not understand or support the lifestyle.\nQ: What are some resources for learning more about veganism?\nA: Some resources for learning more about veganism include books, websites, and social media accounts. There are also many vegan organizations and groups that offer support and information.\nQ: What are some",
+            "scores": {
+                "google_bleu": 0.06422018348623854,
+                "bertscore": {
+                    "precision": [
+                        0.5394872426986694
+                    ],
+                    "recall": [
+                        0.7385932207107544
+                    ],
+                    "f1": [
+                        0.6235313415527344
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.25084745762711863,
+                    "rouge2": 0.0614334470989761,
+                    "rougeL": 0.1288135593220339,
+                    "rougeLsum": 0.1694915254237288
+                }
+            },
+            "feedback": "The response addresses the question of what a vegan diet entails, providing accurate and relevant details about what vegans do and don't eat. It also responds to additional questions about common misconceptions, benefits, challenges, and resources for learning more about veganism. However, the response could have been more organized and structured to make it easier for a child to follow. For example, the response could have broken down into sections to discuss different aspects of the vegan lifestyle, like what vegans eat, common misconceptions, benefits, challenges, and resources. Additionally, while the response is mostly complete and factually correct, there are some minor omissions that could be improved upon. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "tg3",
+            "input": "Write an email request to someone who is a reference for an applicant to a job I've posted. Please ask the person to tell us about strengths, areas of growth, if they would do well in all aspects of the role (it involves supervising students but can have a lot of admin and organization at times), also anything else they want to tell us - put this as a list. I can also call if that would be preferred. It should be professional in tone but not too formal.",
+            "expected_output": [
+                "Hello [name]\n\nI hope this finds you well.\n\nI am doing a reference check for [applicant name] who has applied for a [position name] position here at [organization name]. [He/she] gave your contact information as a reference. Could you speak to the areas below: \n1. [His/her] strengths\n2. [His/her] growth areas\n3. This role involves the supervision of students as well as, at times, heavy administration work. Do you think [he/she] would do equally well in these two areas? \n4. Is there anything else that you think would be helpful for us to know?\n\nIf you'd prefer me to give you a call to talk through this instead, let me know!\n\nMany thanks for your time.\n\n[name]"
+            ],
+            "generated_output": "\n\nThank you for taking the time to speak with me about the position of [job title]. I am writing to ask you to share with us your thoughts on [applicant's name].\n\n[Applicant's name] has asked me to ask you to share with us your thoughts on [applicant's name].\n\nI am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of [job title]. I am looking for someone who is a good fit for the role of",
+            "scores": {
+                "google_bleu": 0.0659536541889483,
+                "bertscore": {
+                    "precision": [
+                        0.4301225543022156
+                    ],
+                    "recall": [
+                        0.4904744029045105
+                    ],
+                    "f1": [
+                        0.4583202302455902
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.20385674931129477,
+                    "rouge2": 0.01662049861495845,
+                    "rougeL": 0.09917355371900825,
+                    "rougeLsum": 0.17079889807162535
+                }
+            },
+            "feedback": "The generated response is completely irrelevant and does not address the given topic of requesting a reference for an applicant to a job. The response is filled with repetitive statements about the person looking for someone who is a good fit for the role, which doesn't pertain to the actual request for information about the applicant. The tone of the response is unprofessional and does not meet the requirements of a professional but not overly formal tone. There is no effort made to engage the reader or to show any form of creativity. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "tg4",
+            "input": "Briefly write what proper nutrients someone should get before a workout and why.",
+            "expected_output": [
+                "Prior to exercise, fueling your body with the right nutrients is crucial for optimal performance. The three main macronutrients, namely carbs, protein, and fat, play specific roles in providing energy and supporting muscle function during workouts. Carbohydrates are important for short and high-intensity exercises, as they fuel your muscles by replenishing glycogen stores. Protein consumption before exercise can enhance muscle protein synthesis, leading to benefits such as increased muscle mass, improved recovery, and enhanced performance. While fat serves as a source of fuel for longer and moderate-to-low intensity exercises, the effects of fat intake specifically before exercise require further research. Overall, understanding the role of each macronutrient and their appropriate consumption can help optimize your pre-workout nutrition."
+            ],
+            "generated_output": "\nAnswers:\n1.\na.\nb.\nc.\nd.\ne.\nf.\ng.\nh.\ni.\nj.\n2.\na.\nb.\nc.\nd.\ne.\nf.\ng.\nh.\ni.\nj.\n3.\na.\nb.\nc.\nd.\ne.\nf.\ng.\nh.\ni.\nj.\n4.\na.\nb.\nc.\nd.\ne.\nf.\ng.\nh.\ni.\nj.\n5.\na.\nb.\nc.\nd.\ne.\nf.\ng.\nh.\ni.\nj.\n6.\na.\nb.\nc.\nd.\ne.\nf.\ng.\nh.\ni.\nj.\n7.\na.\nb.\nc.\nd.\ne.\nf.\ng.\nh.\ni.\nj.\n8.\na.\nb.\nc.\nd.\ne.\nf.\ng.\nh.\ni.\nj.\n9.\na.\nb.\nc.\nd.\ne.\nf.\ng.\nh.\ni.\n",
+            "scores": {
+                "google_bleu": 0.008905852417302799,
+                "bertscore": {
+                    "precision": [
+                        0.2692195177078247
+                    ],
+                    "recall": [
+                        0.2823513150215149
+                    ],
+                    "f1": [
+                        0.27562907338142395
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.00909090909090909,
+                    "rouge2": 0.0,
+                    "rougeL": 0.00909090909090909,
+                    "rougeLsum": 0.00909090909090909
+                }
+            },
+            "feedback": "This response fails to provide the necessary information asked in the prompt, hence it is not relevant to the topic. There is no mention of the role of carbohydrates, proteins, and fats during a workout, or why they are essential, which was the key requirement in the instruction. Instead, the response seems to focus on irrelevant information about food groups and healthy eating, which are not directly related to the topic. Also, there is a significant error in factual detail, as the response fails to accurately describe the function of macronutrients during a workout. In addition, there is a clear lack of organization, as the response jumps from one unrelated topic to another without providing a coherent discussion of the requested topic. As such, this response does not meet the requirements of the scoring rubric, particularly in terms of relevance, clarity, and completeness. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa1",
+            "input": "Why is Aberdeen called the Granite City?",
+            "expected_output": [
+                "Alberdeen's nickname, the Granite City, comes from the city's history and contribution of granite, in addition to the architectural style of more than fifty percent of the city's buildings. Many of the city's most popular buildings and residential properties were built using granite from large quarries around the Nort-East, most notably the Rubislaw Quarry in Aberdeen's west end. As technology and practices for handling a large amount of rock improved, Aberdeen quickly became the granite capital of the world, exporting granite by sea to several areas globally."
+            ],
+            "generated_output": "\nAberdeen is known as the Granite City because of the abundance of granite in the area. The granite was used to build many of the city\u2019s buildings, including the famous Marischal College.\nWhat is the Granite City known for?\nThe Granite City is known for its granite quarries, which have been in operation since the 18th century. The granite is used to make a variety of products, including monuments, buildings, and sculptures.\nWhat is the Granite City known for?\nThe Granite City is known for its granite quarries, which have been in operation since the 18th century. The granite is used to make a variety of products, including monuments, buildings, and sculptures. The Granite City is also home to the Granite City Museum, which is dedicated to the history of the granite industry.\nWhat is the Granite City known for?\nThe Granite City is known for its granite quarries, which have been in operation since the 18th century. The granite is used to make a variety of products, including monuments, buildings, and sculptures. The Granite City is also home to the Granite City Museum, which is dedicated to the history of the granite industry.\nWhat is the Granite City known for?\nThe Granite City is known for its granite quarries, which have been in operation since the 18th century. The",
+            "scores": {
+                "google_bleu": 0.0531062124248497,
+                "bertscore": {
+                    "precision": [
+                        0.45560750365257263
+                    ],
+                    "recall": [
+                        0.6323954463005066
+                    ],
+                    "f1": [
+                        0.5296384692192078
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.2611464968152866,
+                    "rouge2": 0.08974358974358974,
+                    "rougeL": 0.19108280254777069,
+                    "rougeLsum": 0.16560509554140126
+                }
+            },
+            "feedback": "The response does not provide any concrete explanation as to why Aberdeen is called the Granite City. While it does acknowledge the city's association with granite, it does not go beyond this point to explain why it is a significant aspect of the city. Furthermore, it lacks the important details about the history of granite in Aberdeen, its impact on the city's architecture, and the global reach of the granite industry in Aberdeen. Additionally, the response lacks coherence, with questions repeated throughout, and it is not well-organized. So the overall score is 2.",
+            "prometheus_score": 2
+        },
+        {
+            "id": "oqa2",
+            "input": "Can foxes fit down rabbit burrows?",
+            "expected_output": [
+                "Foxes cannot fit into rabbit burrows, but that doesn't stop them from trying to. A fox will go down as far as possible and then dig using its semi-retractable claws, in an attempt to get the rabbit and drag it out."
+            ],
+            "generated_output": "\nFoxes are smaller than rabbits, so they can fit down rabbit burrows.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than foxes.\nWhat is the difference between a rabbit and a fox?\nRabbits are smaller than",
+            "scores": {
+                "google_bleu": 0.016198704103671708,
+                "bertscore": {
+                    "precision": [
+                        0.28614553809165955
+                    ],
+                    "recall": [
+                        0.5434153079986572
+                    ],
+                    "f1": [
+                        0.3748871684074402
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.08835341365461848,
+                    "rouge2": 0.024291497975708502,
+                    "rougeL": 0.08032128514056225,
+                    "rougeLsum": 0.048192771084337345
+                }
+            },
+            "feedback": "This response fails to address the given instruction or context. It only repeats the same claim without offering any evidence or explanation. It's clear that this response lacks relevance to the question asked. Furthermore, it is entirely repetitive and illogical. No effort has been made to provide any logic or reasoning that would validate the claim made, which clearly goes against common sense. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa3",
+            "input": "What was the most popular arcade game in the United States in 1990?",
+            "expected_output": [
+                "The highest-grossing arcade game in the United States in 1990 was Teenage Mutant Ninja Turtles. That same year, the game won a Diamond award from the American Amusement Machine Association (AAMA) for sales achievement."
+            ],
+            "generated_output": "\n\nWhat was the most popular arcade game in the United States in 1990?",
+            "scores": {
+                "google_bleu": 0.18666666666666668,
+                "bertscore": {
+                    "precision": [
+                        0.8470206260681152
+                    ],
+                    "recall": [
+                        0.6150195598602295
+                    ],
+                    "f1": [
+                        0.7126127481460571
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.41666666666666663,
+                    "rouge2": 0.3043478260869565,
+                    "rougeL": 0.37499999999999994,
+                    "rougeLsum": 0.37499999999999994
+                }
+            },
+            "feedback": "The response provided does not align with the given topic of identifying the most popular arcade game in the United States in 1990. It does not mention any specific arcade games, instead asking the user to input information. This directly contradicts the instruction given, making the response entirely irrelevant. The response also lacks any relevant information or details which would be necessary to provide an accurate answer. The question is also repetitive, asking for more information about the same topic instead of providing the desired answer. There's no evidence of research or any effort to provide a correct answer. The response fails to demonstrate logic or common sense by simply restating the problem rather than solving it. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa4",
+            "input": "What is Feng Shui?",
+            "expected_output": [
+                "Feng Shui is an ancient Chinese practice of harmonizing individuals with their surrounding environment. This philosophy uses energy forces to create harmony between an individual and their environment. In interior design, Feng Shui is applied through the placement of furniture and objects to allow a smooth flow of energy, or \"qi,\" within a space. This could involve orienting a bed or desk in a certain way, using specific colors, clearing clutter, or balancing various elements (wood, fire, earth, metal, water) to create a peaceful, balanced environment conducive to health and prosperity."
+            ],
+            "generated_output": "\nFeng Shui is a Chinese philosophy that is based on the idea that the flow of energy, or Qi, can be manipulated to create a harmonious and prosperous environment. The goal of Feng Shui is to create a space that is in balance with the natural world, and to promote health, wealth, and happiness.\nFeng Shui is a complex and nuanced practice, and there are many different schools of thought within it. However, the basic principles of Feng Shui are relatively simple. The key is to create a space that is in harmony with the natural world, and to promote health, wealth, and happiness.\nThere are many different ways to create a Feng Shui-friendly space. Some people believe that the placement of furniture and objects is important, while others believe that the arrangement of the space itself is key. There are also many different ways to promote health, wealth, and happiness. Some people believe that the placement of certain objects in a space can promote good luck, while others believe that the placement of certain objects can promote bad luck.\nFeng Shui is a complex and nuanced practice, and there is no one right way to do it. However, the basic principles of Feng Shui are relatively simple. The key is to create a space that is in harmony with the natural world, and to promote health, wealth, and happiness.\nHow to Create a Feng Shui-Friendly Space\nThere",
+            "scores": {
+                "google_bleu": 0.08598130841121496,
+                "bertscore": {
+                    "precision": [
+                        0.5500499606132507
+                    ],
+                    "recall": [
+                        0.6713544130325317
+                    ],
+                    "f1": [
+                        0.6046785116195679
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.26586102719033233,
+                    "rouge2": 0.1094224924012158,
+                    "rougeL": 0.19335347432024166,
+                    "rougeLsum": 0.17522658610271902
+                }
+            },
+            "feedback": "The response fails to provide any specific details about what Feng Shui is. The explanation given is vague and does not explain how this philosophy works or what are the techniques involved in creating a Feng Shui friendly space. The response does not discuss how the placement of furniture or objects can influence the flow of energy in a space, which is a key principle of Feng Shui. The response does not provide any concrete steps to create a Feng Shui friendly space, leaving the reader with little practical information. Also, the response is not clearly structured and lacks coherence, making it difficult for readers to understand the topic clearly. Therefore, the response lacks all relevant details necessary for a comprehensive understanding of the topic and hence it does not meet the criteria for the rubric score of 5. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa5",
+            "input": "Are there any particular physical benefits to mindful walking, such as improved posture or increased physical fitness?",
+            "expected_output": [
+                "Yes, there are physical benefits to mindful walking, such as improved posture, increased physical fitness, and better balance. Mindful walking can also help relieve tension in the body, reduce stress, and improve flexibility. It can also improve circulation and help with weight management. By tuning into the body, mindful walking can also help individuals identify and address any imbalances or discomfort, leading to a healthier and more aligned body."
+            ],
+            "generated_output": "\nMindful walking can have several physical benefits, including improved posture, increased physical fitness, and reduced stress levels. By focusing on the present moment and being aware of your body's movements, you can improve your posture and reduce the likelihood of injury. Additionally, mindful walking can help you become more aware of your body's needs and adjust your pace and intensity to match your current physical condition. This can help you stay active and improve your overall physical fitness.\nCan mindful walking be used as a form of therapy for mental health issues, such as anxiety or depression?\nMindful walking can be used as a form of therapy for mental health issues, such as anxiety and depression. By focusing on the present moment and being aware of your surroundings, you can reduce stress levels and improve your mood. Additionally, mindful walking can help you become more aware of your thoughts and emotions, which can be helpful in managing mental health issues.\nCan mindful walking be used as a form of meditation, and if so, how?\nMindful walking can be used as a form of meditation. By focusing on the present moment and being aware of your surroundings, you can reduce stress levels and improve your mood. Additionally, mindful walking can help you become more aware of your thoughts and emotions, which can be helpful in managing mental health issues.\nCan mindful walking be used as a form of mindfulness training, and if so, how?\nMindful walking can be used as a form",
+            "scores": {
+                "google_bleu": 0.07692307692307693,
+                "bertscore": {
+                    "precision": [
+                        0.5180147886276245
+                    ],
+                    "recall": [
+                        0.7078107595443726
+                    ],
+                    "f1": [
+                        0.598219633102417
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.24844720496894412,
+                    "rouge2": 0.08750000000000001,
+                    "rougeL": 0.17391304347826086,
+                    "rougeLsum": 0.19875776397515527
+                }
+            },
+            "feedback": "This response adequately addresses the topic by providing relevant and accurate information on how mindful walking can be beneficial. It has been organized in a coherent manner, making it easy to follow and understand. The response includes all necessary details for a comprehensive understanding of the topic, ensuring that the user gets the required information. The response was logically valid and sound, demonstrating common sense in every aspect. Hence, it fulfills all the criteria mentioned in the scoring rubric. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "oqa6",
+            "input": "What percentage of the Earth's surface is covered by oceans?",
+            "expected_output": [
+                "About 71% of the Earth's surface is covered by oceans."
+            ],
+            "generated_output": "\n\n97.5",
+            "scores": {
+                "google_bleu": 0.0,
+                "bertscore": {
+                    "precision": [
+                        0.38983917236328125
+                    ],
+                    "recall": [
+                        0.45081865787506104
+                    ],
+                    "f1": [
+                        0.4181172549724579
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.0,
+                    "rouge2": 0.0,
+                    "rougeL": 0.0,
+                    "rougeLsum": 0.0
+                }
+            },
+            "feedback": "The response, while accurate in terms of the question asked, fails to provide a complete picture. It does not consider the fact that the percentage of surface coverage changes based on seasonal conditions, landmass distribution, and other factors. Therefore, although the response may be accurate in terms of the percentage of surface coverage at a given moment, it is insufficient to understand the broader context or implications of this data. The logic used in calculating the percentage does not take into account the dynamic nature of the Earth's surface or its components. While the response is mostly clear, it fails to consider the full scope of the subject matter, leaving out critical details to ensure comprehensibility. In addition, the response lacks sufficient logic to explain the percentage of the Earth's surface covered by oceans. So the overall score is 3.",
+            "prometheus_score": 3
+        },
+        {
+            "id": "oqa7",
+            "input": "How does language translation technology impact globalization?",
+            "expected_output": [
+                "Language translation technology has a significant impact on globalization in the following ways:\n\n1. Breaking down language barriers: Translation technology enables individuals and businesses to communicate with people from different countries who speak different languages. This leads to greater collaboration, trade, and cultural exchange, which promotes globalization.\n\n2. Facilitating cross-border communication: With translation technology, people can communicate with each other without the need for an interpreter or being proficient in another language. This makes it easier for businesses to expand into new markets and for individuals to connect with people from different cultures.\n\n3. Increasing accessibility: Translation technology has made it easier for people to access information from different parts of the world, regardless of the language barrier. This has led to greater cultural exchange and has provided people with broader, diverse perspectives.\n\n4. Promoting multilingualism: As translation technology becomes more prevalent, individuals and businesses are recognizing the value of being multilingual. This has led to greater interest in learning new languages and has contributed to the globalization of language learning.\n\nOverall, language translation technology has revolutionized cross-cultural communication and has played a critical role in promoting globalization."
+            ],
+            "generated_output": "\nLanguage translation technology has a significant impact on globalization. It enables businesses to communicate with customers and partners in different languages, which helps them to expand their reach and grow their business. Language translation technology also helps to break down cultural barriers and make it easier for people from different cultures to communicate with each other.\nWhat are the benefits of language translation technology?\nLanguage translation technology has many benefits. It can help businesses to communicate with customers and partners in different languages, which can help them to expand their reach and grow their business. Language translation technology can also help to break down cultural barriers and make it easier for people from different cultures to communicate with each other.\nWhat are the challenges of language translation technology?\nLanguage translation technology can be challenging to use. It can be difficult to find a reliable translation service, and it can be expensive to use. Additionally, language translation technology can be difficult to understand and use, and it can be difficult to find a reliable translation service.\nWhat are the future trends in language translation technology?\nThe future trends in language translation technology are likely to be focused on improving the accuracy and speed of translation. Additionally, there is likely to be a focus on developing new technologies that can help to make language translation more efficient and cost-effective.\nWhat are the ethical considerations of language translation technology?\nThere are a number of ethical considerations that need to be taken into account when using language translation technology. It is important to ensure that the translation is accurate and",
+            "scores": {
+                "google_bleu": 0.156195462478185,
+                "bertscore": {
+                    "precision": [
+                        0.5925036668777466
+                    ],
+                    "recall": [
+                        0.5973272919654846
+                    ],
+                    "f1": [
+                        0.59490567445755
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.41575492341356673,
+                    "rouge2": 0.15384615384615383,
+                    "rougeL": 0.26695842450765866,
+                    "rougeLsum": 0.3413566739606127
+                }
+            },
+            "feedback": "The response lacks logical flow and coherence, and it fails to address the key aspects of the given instruction. Instead of focusing on the impact of language translation technology on globalization, the response merely reiterates the topic. The response also fails to explore the benefits, challenges, future trends, and ethical considerations of language translation technology as required in the instruction. Moreover, the response lacks the depth and detail necessary to provide a comprehensive understanding of the topic. The response does not meet the standards set by the rubric for clarity, completeness, accuracy, and logic and common sense. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa8",
+            "input": "What role does collaboration and collective creativity play in the pursuit of originality?",
+            "expected_output": [
+                "Collaboration and collective creativity play a significant role in the pursuit of originality. When individuals come together to work on a project or idea, they bring different perspectives and skill sets to the table. This collaboration can lead to new and innovative ideas that may not have been possible if the individuals were working alone.\n\nCollective creativity can also lead to a greater diversity of ideas and perspectives, which can help to create more original and unique outcomes. Working in a team allows individuals to bounce ideas off one another, challenge assumptions, and build on each other's ideas, ultimately leading to more originality.\n\nMoreover, collaboration provides opportunities for feedback and criticism, allowing for ideas to be refined and improved over time. The collaborative process also helps to ensure that ideas are tested and validated, ultimately resulting in more original and valuable outcomes.\n\nOverall, collaboration and collective creativity are crucial components in the pursuit of originality as they provide a platform for individuals to share their ideas, build on each other's strengths, and ultimately create something new and innovative."
+            ],
+            "generated_output": "\nWhat is the relationship between originality and the pursuit of perfection?\nWhat is the relationship between originality and the pursuit of novelty?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of innovation?\nWhat is the relationship between originality and the pursuit of creativity?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between originality and the pursuit of uniqueness?\nWhat is the relationship between",
+            "scores": {
+                "google_bleu": 0.03131115459882583,
+                "bertscore": {
+                    "precision": [
+                        0.571697473526001
+                    ],
+                    "recall": [
+                        0.45442822575569153
+                    ],
+                    "f1": [
+                        0.5063618421554565
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.12980769230769232,
+                    "rouge2": 0.01932367149758454,
+                    "rougeL": 0.12980769230769232,
+                    "rougeLsum": 0.057692307692307696
+                }
+            },
+            "feedback": "The response is entirely off-topic and fails to address or align with the given instruction, which was to discuss the role of collaboration and collective creativity in the pursuit of originality. Instead, the response focuses on repetitive inquiries about the relationship between originality and various other terms, none of which relate to the main instruction. This response shows a complete disregard for the relevance, clarity, completeness, accuracy, and logical sense expected of the given instruction. It lacks organization, clarity, coherence, and accuracy, which further indicates a significant deviation from the required topic, context, theme, or subject. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa9",
+            "input": "What are the most important features in a smartphone?",
+            "expected_output": [
+                "As an AI language model, I do not have personal preferences or opinions. However, some of the most important features in a smartphone are:\n\n1. Operating System: The operating system of a smartphone enables you to interact with the device. The most popular operating systems are Android and iOS.\n\n2. Processor: A powerful processor ensures that the phone performs quickly and efficiently. The latest Snapdragon and A-series processors are popular among smartphone users.\n\n3. Battery Life: A long-lasting battery is always an attractive feature in a smartphone. Before buying a smartphone, make sure it has a battery life of at least one day with heavy usage.\n\n4. Camera: The camera is a crucial feature in today's smartphones. Good image quality, 4k video recording, optical zoom, and portrait mode are some of the popular features that users look for in a smartphone camera.\n\n5. Storage: A sufficient amount of storage is necessary to store images, videos, and other important files. Nowadays, many smartphones come with internal storage options ranging from 64GB to 512GB.\n\n6. Display: Display size, resolution, and technology are important features that enhance the user's experience while using a smartphone.\n\n7. Connectivity: Features like Bluetooth, Wi-Fi, NFC, and 5G connectivity are important features in a smartphone. \n\n8. Security: Fingerprint sensors, facial recognition, and passcodes are essential features for securing your device and data. \n\n9. Design: The design of a smartphone should be attractive, slim, and lightweight. It should feel comfortable in your hand and have a good grip. \n\n10. Price: The price of the smartphone is an important consideration for many people. It should offer good value for money and be affordable according to your budget."
+            ],
+            "generated_output": "\nThe most important features in a smartphone are the camera, the battery life, the processor, the storage, and the display.\nWhat are the most important features in a smartphone?\nThe most important features in a smartphone are the camera, the battery life, the processor, the storage, and the display.\nWhat are the most important features in a smartphone?\nThe most important features in a smartphone are the camera, the battery life, the processor, the storage, and the display.\nWhat are the most important features in a smartphone?\nThe most important features in a smartphone are the camera, the battery life, the processor, the storage, and the display.\nWhat are the most important features in a smartphone?\nThe most important features in a smartphone are the camera, the battery life, the processor, the storage, and the display.\nWhat are the most important features in a smartphone?\nThe most important features in a smartphone are the camera, the battery life, the processor, the storage, and the display.\nWhat are the most important features in a smartphone?\nThe most important features in a smartphone are the camera, the battery life, the processor, the storage, and the display.\nWhat are the most important features in a smartphone?\nThe most important features in a smartphone are the camera, the battery life, the processor, the storage, and the display.\nWhat are the most important features in a smartphone?\nThe most important",
+            "scores": {
+                "google_bleu": 0.10977443609022557,
+                "bertscore": {
+                    "precision": [
+                        0.5468596816062927
+                    ],
+                    "recall": [
+                        0.4405202865600586
+                    ],
+                    "f1": [
+                        0.4879636764526367
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.33268858800773693,
+                    "rouge2": 0.0970873786407767,
+                    "rougeL": 0.2514506769825919,
+                    "rougeLsum": 0.24758220502901354
+                }
+            },
+            "feedback": "This response fails to adequately address the topic \"What are the most important features in a smartphone?\" as required by the score rubric. Instead of detailing different features of a smartphone in a comprehensive manner, the response simply repeats the same phrase. This shows a lack of understanding of the instruction, relevance, and completeness. According to the score rubric, the response is supposed to be relevant to the given instruction and complete, meaning it should have covered different aspects of a smartphone to provide a comprehensive understanding. However, in this case, there is no such coverage, making the response factually incorrect, illogical, and lacking common sense. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "tg5",
+            "input": "Describe a time when you had to make a difficult decision.",
+            "expected_output": [
+                "I had to make a difficult decision when I was working as a project manager at a construction company. I was in charge of a project that needed to be completed by a certain date in order to meet the client\u2019s expectations. However, due to unexpected delays, we were not able to meet the deadline and so I had to make a difficult decision. I decided to extend the deadline, but I had to stretch the team\u2019s resources even further and increase the budget. Although it was a risky decision, I ultimately decided to go ahead with it to ensure that the project was completed on time and that the client\u2019s expectations were met. The project was eventually successfully completed and this was seen as a testament to my leadership and decision-making abilities."
+            ],
+            "generated_output": "\nWhat is your greatest strength?\nWhat is your greatest weakness?\nWhat is your greatest accomplishment?\nWhat is your greatest challenge?\nWhat is your greatest fear?\nWhat is your greatest hope?\nWhat is your greatest disappointment?\nWhat is your greatest joy?\nWhat is your greatest regret?\nWhat is your greatest dream?\nWhat is your greatest challenge?\nWhat is your greatest fear?\nWhat is your greatest hope?\nWhat is your greatest disappointment?\nWhat is your greatest joy?\nWhat is your greatest regret?\nWhat is your greatest dream?\nWhat is your greatest challenge?\nWhat is your greatest fear?\nWhat is your greatest hope?\nWhat is your greatest disappointment?\nWhat is your greatest joy?\nWhat is your greatest regret?\nWhat is your greatest dream?\nWhat is your greatest challenge?\nWhat is your greatest fear?\nWhat is your greatest hope?\nWhat is your greatest disappointment?\nWhat is your greatest joy?\nWhat is your greatest regret?\nWhat is your greatest dream?\nWhat is your greatest challenge?\nWhat is your greatest fear?\nWhat is your greatest hope?\nWhat is your greatest disappointment?\nWhat is your greatest joy?\nWhat is your greatest regret?\nWhat is your greatest dream?\nWhat is your greatest challenge?\nWhat is your greatest fear?\nWhat is your greatest hope?\nWhat is your greatest disappointment?\nWhat is your greatest joy",
+            "scores": {
+                "google_bleu": 0.0,
+                "bertscore": {
+                    "precision": [
+                        0.3244416117668152
+                    ],
+                    "recall": [
+                        0.327068954706192
+                    ],
+                    "f1": [
+                        0.3257499933242798
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.0,
+                    "rouge2": 0.0,
+                    "rougeL": 0.0,
+                    "rougeLsum": 0.0
+                }
+            },
+            "feedback": "The generated response does not address the prompt at all. The user asked for a response about a time when they had to make a difficult decision, but the response did not provide an answer to that question. Instead, the response asked irrelevant questions about the user's personal characteristics and experiences. This makes the response completely irrelevant and does not align with the given topic, context, theme, or subject. As per the score rubric, the response lacks any empathy and fails to convey opinions or reflections with a considerate tone. Furthermore, it does not have any organization or coherence as it contains repetitive and disjointed statements. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "tg6",
+            "input": "Generate a list of ten items a person might need for a camping trip.",
+            "expected_output": [
+                "1. Tent 2. Sleeping bags 3. Flashlight 4. Matches/lighter 5. Insect repellent 6. Extra clothes 7. First aid kit 8. Camp stove 9. Cooking utensils 10. Biodegradable soaps/shampoos"
+            ],
+            "generated_output": "\n\ncamping gear, food, water, matches, a tent, a sleeping bag, a flashlight, a knife, a first aid kit, a compass",
+            "scores": {
+                "google_bleu": 0.018518518518518517,
+                "bertscore": {
+                    "precision": [
+                        0.7035020589828491
+                    ],
+                    "recall": [
+                        0.6002750396728516
+                    ],
+                    "f1": [
+                        0.6478020548820496
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.28,
+                    "rouge2": 0.08333333333333333,
+                    "rougeL": 0.24,
+                    "rougeLsum": 0.24
+                }
+            },
+            "feedback": "The response is accurate and relevant to the prompt. The list provided matches the camping trip context. However, while the response is mostly clear, there are areas of ambiguity that could have been improved, like the inclusion of the phrase \"for a camping trip\" which would have increased the clarity and coherence of the response. The response is complete, with all necessary details included, but could have included some more specifics such as biodegradable soaps/shampoos and a camp stove for better clarity. Despite these minor shortcomings, the response still gives a comprehensive understanding of the topic. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "tg7",
+            "input": "Describe the function of a computer motherboard",
+            "expected_output": [
+                "A computer motherboard is the main circuit board in a computer. It is the backbone of the system, connecting all other components such as the processor, RAM, storage, graphics card and peripheral ports. It provides communication pathways between all of these components, allowing them to interact and work together. The motherboard is responsible for regulating power, and also houses slots for expansion cards, as well as ports for USB, audio, Ethernet, and other connection types."
+            ],
+            "generated_output": ".\nAns: The motherboard is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main circuit board of a computer. It is the main",
+            "scores": {
+                "google_bleu": 0.04215851602023609,
+                "bertscore": {
+                    "precision": [
+                        0.3773273825645447
+                    ],
+                    "recall": [
+                        0.3905511200428009
+                    ],
+                    "f1": [
+                        0.3838253617286682
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.11695906432748537,
+                    "rouge2": 0.06470588235294118,
+                    "rougeL": 0.11111111111111109,
+                    "rougeLsum": 0.11111111111111109
+                }
+            },
+            "feedback": "This response fails to meet the required standard for a topic about describing the function of a computer motherboard. The response is entirely repetitive, consisting solely of the phrase \"It is the main circuit board of a computer,\" which is irrelevant and unhelpful for understanding the function of a computer motherboard. This is entirely against the topic's requirements and shows no attempt to explain the function of a computer motherboard, hence it lacks any significant information. The lack of clarity and coherence in this response is glaring as it is just a repetition of the same phrase without any proper structure or comprehensive explanation. This makes it extremely difficult to follow, and there is no attempt at all to provide any details. The completeness of this response is also very low as there is no mention of what a motherboard does, and the provided details are not relevant. The repetitive nature of this response, lack of organization, and absence of key details make it inaccurate and unhelpful in providing an understanding of the topic. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "tg8",
+            "input": "Explain the concept of cogging torque.",
+            "expected_output": [
+                "Cogging torque is the torque that is applied to a rotating device when the device experiences resistance from the teeth of the gears that are connected to the device. Cogging torque occurs due to the reaction force generated when the teeth of the gear drive mesh. This force pushes against each other, resulting in a drag force that is transmitted from the gears to the shaft. The magnitude of the cogging torque can vary depending on the size and number of teeth, as well as the gear's material and design. Cogging torque is undesirable in most motorized applications, as it can lead to loss of efficiency. To reduce cogging torque, gear designs are often symmetrical or have certain tooth profiles which reduce the force of contact between the teeth when they come into contact with each other."
+            ],
+            "generated_output": "\nAnswer:\nCogging torque is the torque developed by the rotor when it is rotating at a speed less than the synchronous speed.\nQuestion 10.\nExplain the concept of slip.\nAnswer:\nSlip is the difference between the synchronous speed and the actual speed of the rotor.\nQuestion 11.\nExplain the concept of synchronous speed.\nAnswer:\nSynchronous speed is the speed at which the rotor of the alternator is rotating when the alternator is connected to the supply.\nQuestion 12.\nExplain the concept of slip factor.\nAnswer:\nSlip factor is the ratio of the synchronous speed to the actual speed of the rotor.\nQuestion 13.\nExplain the concept of slip ring alternator.\nAnswer:\nThe alternator which has a slip ring for the connection of the rotor to the stator is called a slip ring alternator.\nQuestion 14.\nExplain the concept of squirrel cage alternator.\nAnswer:\nThe alternator which has a cage for the connection of the rotor to the stator is called a squirrel cage alternator.\nQuestion 15.\nExplain the concept of slip ring generator.\nAnswer:\nThe generator which has a slip ring for the connection of the rotor to the stator is called a slip ring generator.\nQuestion 16.\nExplain the concept of",
+            "scores": {
+                "google_bleu": 0.07582417582417582,
+                "bertscore": {
+                    "precision": [
+                        0.46382373571395874
+                    ],
+                    "recall": [
+                        0.5256869196891785
+                    ],
+                    "f1": [
+                        0.49282151460647583
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.25882352941176473,
+                    "rouge2": 0.07692307692307693,
+                    "rougeL": 0.20588235294117646,
+                    "rougeLsum": 0.15882352941176472
+                }
+            },
+            "feedback": "The response fails to address the concept of cogging torque, as defined in the instruction. Instead, it describes a range of other topics including synchronous speed, slip, slip factor, slip ring alternator, squirrel cage alternator, slip ring generator, and so on. It does not provide a definition or explanation of cogging torque, nor does it align with the given topic. The information provided is highly irrelevant and not related to the instruction. The response is not organized in a clear and coherent manner and fails to provide all necessary details for a comprehensive understanding of the topic, hence it is inaccurate. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "tg9",
+            "input": "Generate a list of adjectives that describe a person as brave.",
+            "expected_output": [
+                "Courageous, heroic, audacious, vigorous, valorous, resolute, intrepid, bold, brave, daring, tenacious, plucky, stout-hearted, doughty, gallant, fearless, undaunted, spirited, daredevil."
+            ],
+            "generated_output": "\n\nbrave",
+            "scores": {
+                "google_bleu": 0.00684931506849315,
+                "bertscore": {
+                    "precision": [
+                        0.46543779969215393
+                    ],
+                    "recall": [
+                        0.36638593673706055
+                    ],
+                    "f1": [
+                        0.41001442074775696
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.09523809523809523,
+                    "rouge2": 0.0,
+                    "rougeL": 0.09523809523809523,
+                    "rougeLsum": 0.09523809523809523
+                }
+            },
+            "feedback": "This response is a single word - 'brave', which is not a list of adjectives as instructed. The response is not relevant to the instruction because it doesn't provide the requested information, which was to generate a list of adjectives describing a person as brave. It is completely factually incorrect and does not align with the theme of the prompt. The information provided is incomplete and lacks the necessary details for a comprehensive understanding of the topic. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa10",
+            "input": "What is an API ?",
+            "expected_output": [
+                "API stands for Application Programming Interface. It is a set of instructions or programming instructions that allow two applications to communicate and exchange data with each other. APIs provide a way for developers to access and manipulate data and services offered by other applications or platforms. They are an essential part of modern web development and allow developers to develop complex applications and websites using modular components."
+            ],
+            "generated_output": "\nAn API is a set of rules and specifications that allow two applications to communicate with each other.\nWhat is an API key?\nAn API key is a unique identifier that allows you to access an API.\nWhat is an API endpoint?\nAn API endpoint is the URL that you use to access an API.\nWhat is an API rate limit?\nAn API rate limit is the maximum number of requests that you can make to an API in a given period of time.\nWhat is an API gateway?\nAn API gateway is a service that provides security, caching, and other features for APIs.\nWhat is an API proxy?\nAn API proxy is a service that allows you to access an API without exposing your own API key.\nWhat is an API client?\nAn API client is a software application that uses an API to access data or perform other tasks.\nWhat is an API server?\nAn API server is a software application that provides an API.\nWhat is an API documentation?\nAPI documentation is a set of instructions that describe how to use an API.\nWhat is an API testing?\nAPI testing is a process of verifying that an API is working as expected.\nWhat is an API monitoring?\nAPI monitoring is a process of monitoring the performance and availability of an API.\nWhat is an API security?\nAPI security is a process of protecting an API from unauthorized access.",
+            "scores": {
+                "google_bleu": 0.05860113421550094,
+                "bertscore": {
+                    "precision": [
+                        0.5323867797851562
+                    ],
+                    "recall": [
+                        0.6578871607780457
+                    ],
+                    "f1": [
+                        0.5885206460952759
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.19480519480519481,
+                    "rouge2": 0.08496732026143791,
+                    "rougeL": 0.15584415584415584,
+                    "rougeLsum": 0.15584415584415584
+                }
+            },
+            "feedback": "The response fails to accurately define an API and instead provides a series of unrelated definitions. It lacks coherence and fails to align with the topic which is what an API is. There is no mention of what an API is or its significance, only separate explanations about different elements of an API, such as API key, endpoint, rate limit, gateway, proxy, client, server, documentation, testing, monitoring, and security. These responses show a significant misunderstanding of the subject matter and contain critical elements that undermine its relevance to the topic. The response is also illogical and lacks common sense, failing to follow a linear or coherent structure. It does not make sense to define API terms one after another, without providing a basic understanding of what an API is. So the overall score is 2.",
+            "prometheus_score": 2
+        },
+        {
+            "id": "tg10",
+            "input": "Write a short paragraph about the importance of using renewable energy.",
+            "expected_output": [
+                "The use of renewable energy is growing rapidly in relevance and importance as the world looks towards solutions to combat climate change. Renewable energy sources, such as solar, wind, and hydropower, are sustainable and have a much lower environmental impact than traditional energy sources like coal and oil. Switching to renewable energy can reduce carbon emissions, improve air quality, lessen the dependence on non-renewable resources, and provide a stable and secure energy future. Renewable energy is essential for achieving a sustainable future and should be an important part of any country\u2019s energy portfolio."
+            ],
+            "generated_output": "\nAnswer:\nThe importance of using renewable energy is as follows:\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is the energy that is obtained from natural sources that are replenished naturally.\n- Renewable energy is",
+            "scores": {
+                "google_bleu": 0.031683168316831684,
+                "bertscore": {
+                    "precision": [
+                        0.3821336030960083
+                    ],
+                    "recall": [
+                        0.4813491404056549
+                    ],
+                    "f1": [
+                        0.4260413646697998
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.14465408805031446,
+                    "rouge2": 0.0379746835443038,
+                    "rougeL": 0.13836477987421383,
+                    "rougeLsum": 0.08176100628930817
+                }
+            },
+            "feedback": "The response provided doesn't address the topic or question, hence completely irrelevant to the task at hand. The question was asking for a short paragraph about the importance of using renewable energy and why it is increasingly important. However, the response merely repeated the same sentence over and over without providing any substantial information on the topic. It does not align with the specified topic, and therefore it fails to meet the requirements of relevance. Furthermore, the response lacks organization and clarity. The repeated sentences without any variation or transition make the response hard to understand. Therefore, it critically undermines the clarity of the response. Lastly, the information provided is entirely factually incorrect. There is no discussion about the significance of renewable energy in the fight against climate change, its advantages over traditional sources of energy, or why it is essential for sustainable future. The lack of accuracy in the information provided critically undermines the quality of the response. So the overall score is 1.",
+            "prometheus_score": 1
+        }
+    ]
+}

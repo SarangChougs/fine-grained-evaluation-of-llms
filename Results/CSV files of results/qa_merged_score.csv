@@ -1,0 +1,11 @@
+Model Name / Instruction Number;bleu;bert;rougeL;prometheus
+TheBloke/Orca-2-13B-AWQ;0.128;0.629;0.218;3.5
+microsoft/Orca-2-7b;0.168;0.658;0.256;3.2
+01-ai/Yi-6B;0.77;0.542;0.182;1.8
+WizardLM/WizardLM-13B-V1.1;0.154;0.698;0.277;4.7
+TheBloke/WizardLM-7B-V1.0-Uncensored-GPTQ;0.159;0.705;0.27;3.7
+TheBloke/llava-v1.5-13B-AWQ;135;0.646;0.258;3.2
+TheBloke/vicuna-7B-v1.5-GPTQ;0.133;0.678;0.232;3.8
+TheBloke/tulu-2-dpo-13B-AWQ;0.112;0.621;0.18;3.9
+timdettmers/guanaco-7b;0.112;0.647;0.197;3.0
+TheBloke/guanaco-13B-GPTQ;0.63;0.574;0.129;2.7

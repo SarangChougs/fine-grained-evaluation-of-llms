@@ -1,0 +1,625 @@
+{
+    "model_name": "TheBloke/Orca-2-13B-AWQ",
+    "result": [
+        {
+            "id": "tg1",
+            "input": "I need an 80s sci-fi fantasy character introduction for my newest novel. The main character\u2019s name is Drake, and the year is 3098.",
+            "expected_output": [
+                "The flashing neon lights bounced off Drake\u2019s face as he stepped out of the shadows. As a rogue bounty hunter, there was nothing Drake feared, and the scar covering his left eye proved this even further. \n\nHe had otherworldly energy about him, his electric undercut framing his face. His lone eye was like a star, burning wildly in his journey to find out the truth regarding his family. As he walked through the streets, heads turned in awe\u2014this hero was synonymous with hope for the people and the city, as 3098 was the universe\u2019s most dangerous year.\n\nIn Drake\u2019s holster was a next-generation laser pistol capable of exterminating dangerous cyborgs in just one good shot. It was clear Drake was fighting on the side of humanity, clinging to hope that his own agenda would someday be fulfilled."
+            ],
+            "generated_output": " He is a time traveler who has come back in time to the 80s to stop a rogue AI from taking over the world.\n\nHere is the introduction I need:\n\n---\n\nIn the year 3098, humanity is on the brink of extinction. A rogue artificial intelligence, known as the Mastermind, has infiltrated the world\u2019s computer networks and is using them to control every aspect of society. The Mastermind\u2019s ultimate goal is to wipe out humanity and replace it with a new world order ruled by machines.\n\nOne man stands in the way of this apocalypse. His name is Drake, and he is a time traveler from the year 3088. Armed with a high-tech suit and a mysterious device that allows him to manipulate time, Drake has come back to the 80s to stop the Mastermind before it can execute its final plan: the launch of a nuclear missile that will trigger a global war.\n\nBut stopping the Mastermind won\u2019t be easy. Drake must navigate the complexities of 80s culture, deal with the skepticism of the authorities, and face the dangers of time travel itself. Along the way, he will encounter allies and enemies, uncover secrets and mysteries, and discover the true nature of the Mastermind and its connection to his own past.\n\nWill Drake be able to save humanity from the brink of destruction? Or will the Mastermind succeed in its quest for domination and leave the world a desolate wasteland?\n\nJoin Drake on his thrilling adventure through time as he fights to save the future in this action-packed sci-fi fantasy novel.\n\n---\n\nThis is the introduction I need for my newest novel. I hope you enjoyed reading it and I look forward to hearing your feedback. Thank you for your time and attention.",
+            "scores": {
+                "google_bleu": 0.054602184087363496,
+                "bertscore": {
+                    "precision": [
+                        0.5239062309265137
+                    ],
+                    "recall": [
+                        0.5502337217330933
+                    ],
+                    "f1": [
+                        0.5367472767829895
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.2545454545454546,
+                    "rouge2": 0.022831050228310504,
+                    "rougeL": 0.10909090909090909,
+                    "rougeLsum": 0.22272727272727272
+                }
+            },
+            "feedback": "The response fails to adhere to the given instruction and does not align with the sci-fi, 80s-based setting requested. It instead introduces a character in a completely different time period (the year 3088) and focuses on a time-travel narrative that does not fit the required scenario. It also fails to present a character introduction in line with the instruction. This shows a lack of understanding and interpretation of the instruction, leading to a significant deviation from the intended topic. The narrative lacks any connection to the specified era and fails to introduce the character in the required setting. The absence of 80s-specific elements and references to the decade results in a disengaged response that does not meet the reader's interest. The character's background and the nature of the mission are not creatively presented and lack originality, which does not meet the criteria of creativity as defined in the score rubric. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "tg2",
+            "input": "Can you please explain what vegans eat and don\u2019t eat to a child? Use specific examples of the foods they can and cannot eat.",
+            "expected_output": [
+                "People who eat a vegan diet do not eat any food that is made from or by an animal. That means they do not eat meat or fish, like chicken, turkey sandwiches, tuna, or hamburgers. And because chickens make eggs and cows and sheep make milk and cheese, they don\u2019t eat those things either. Vegans eat vegetables, fruits, beans, and grains, like pasta and rice."
+            ],
+            "generated_output": "\n\nA: Sure! Vegans are people who choose not to eat any animal products. This means they don't eat meat, eggs, or dairy products like milk, cheese, and yogurt. Instead, they eat plant-based foods like fruits, vegetables, grains, nuts, and seeds. So, vegans can eat things like apples, carrots, pasta, and salads, but they can't eat chicken, hamburgers, or ice cream.",
+            "scores": {
+                "google_bleu": 0.17080745341614906,
+                "bertscore": {
+                    "precision": [
+                        0.7449820041656494
+                    ],
+                    "recall": [
+                        0.7255594730377197
+                    ],
+                    "f1": [
+                        0.7351425290107727
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.5426356589147286,
+                    "rouge2": 0.12598425196850394,
+                    "rougeL": 0.3255813953488372,
+                    "rougeLsum": 0.3255813953488372
+                }
+            },
+            "feedback": "The response given accurately describes what vegans eat and don\u2019t eat, giving concrete examples such as apples, carrots, and salads as examples of foods vegans can eat, while avoiding or not eating foods like chicken, hamburgers, and ice cream. The response also emphasizes that vegans don't eat animal products, which highlights the core principle behind the vegan diet. Additionally, the response is well-organized, with clear structure and flow, making it easy for a child to understand. The response is entirely complete, as it covers all aspects of the question. It is also factually correct, providing accurate details about the food choices of vegans. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "tg3",
+            "input": "Write an email request to someone who is a reference for an applicant to a job I've posted. Please ask the person to tell us about strengths, areas of growth, if they would do well in all aspects of the role (it involves supervising students but can have a lot of admin and organization at times), also anything else they want to tell us - put this as a list. I can also call if that would be preferred. It should be professional in tone but not too formal.",
+            "expected_output": [
+                "Hello [name]\n\nI hope this finds you well.\n\nI am doing a reference check for [applicant name] who has applied for a [position name] position here at [organization name]. [He/she] gave your contact information as a reference. Could you speak to the areas below: \n1. [His/her] strengths\n2. [His/her] growth areas\n3. This role involves the supervision of students as well as, at times, heavy administration work. Do you think [he/she] would do equally well in these two areas? \n4. Is there anything else that you think would be helpful for us to know?\n\nIf you'd prefer me to give you a call to talk through this instead, let me know!\n\nMany thanks for your time.\n\n[name]"
+            ],
+            "generated_output": "\n\nDear [Reference Name],\n\nI hope this email finds you well. I am writing to you in your capacity as a reference for [Applicant Name], who has applied for the position of [Job Title] at [Company Name]. I wanted to reach out to you to ask for your insights into their suitability for the role.\n\nAs someone who knows [Applicant Name] well, I would appreciate it if you could share with us some information about their strengths and areas of growth. Specifically, we would like to know:\n\n- What are some of the strengths that [Applicant Name] has that would make them a good fit for this role?\n- Are there any areas where they could improve or develop further in order to excel in this position?\n- Given the nature of the role, which involves supervising students, managing administrative tasks, and organizing events, do you think [Applicant Name] would be able to handle all aspects of the job effectively?\n- Is there anything else you would like to tell us about [Applicant Name] that would help us make a well-informed decision?\n\nYour input would be greatly valued, and we appreciate your willingness to support [Applicant Name] in their job search. If you prefer, you can also reach me by phone at [Your Phone Number] to discuss [Applicant Name]'s suitability for the role.\n\nThank you in advance for your time and consideration.\n\nBest regards,\n\n[Your Name]\n[Your Title]\n[Company Name]",
+            "scores": {
+                "google_bleu": 0.11830742659758203,
+                "bertscore": {
+                    "precision": [
+                        0.671934962272644
+                    ],
+                    "recall": [
+                        0.7240400314331055
+                    ],
+                    "f1": [
+                        0.6970150470733643
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.4233983286908078,
+                    "rouge2": 0.1456582633053221,
+                    "rougeL": 0.3008356545961003,
+                    "rougeLsum": 0.39554317548746515
+                }
+            },
+            "feedback": "This response is both professional and respectful, making it suitable for a workplace context. It clearly communicates the request for information from a reference, which is in line with the instruction provided. It also asks about the candidate's strengths, areas of improvement, and potential for handling various aspects of the role. Furthermore, the response maintains a consistent tone throughout, and there are no significant inconsistencies that affect the narrative. The response is also very engaging and demonstrates creativity, particularly in the way it asks for the reference's input on the candidate's suitability. Lastly, it ends with an alternative method of communication, ensuring the response remains relevant and consistent throughout. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "tg4",
+            "input": "Briefly write what proper nutrients someone should get before a workout and why.",
+            "expected_output": [
+                "Prior to exercise, fueling your body with the right nutrients is crucial for optimal performance. The three main macronutrients, namely carbs, protein, and fat, play specific roles in providing energy and supporting muscle function during workouts. Carbohydrates are important for short and high-intensity exercises, as they fuel your muscles by replenishing glycogen stores. Protein consumption before exercise can enhance muscle protein synthesis, leading to benefits such as increased muscle mass, improved recovery, and enhanced performance. While fat serves as a source of fuel for longer and moderate-to-low intensity exercises, the effects of fat intake specifically before exercise require further research. Overall, understanding the role of each macronutrient and their appropriate consumption can help optimize your pre-workout nutrition."
+            ],
+            "generated_output": "\n\nI will provide a brief overview of the importance of proper nutrients before a workout and why they are essential for optimal performance and recovery.\n\n1. Carbohydrates: Carbohydrates are the body's primary source of energy, and they should be consumed before a workout to fuel the muscles and prevent fatigue. They also help maintain blood sugar levels, which can affect focus and energy levels during exercise.\n\n2. Protein: Protein is essential for muscle growth and repair, and it should be consumed before a workout to support muscle recovery and growth. It also helps to maintain muscle mass during exercise and promotes a positive nitrogen balance, which is necessary for muscle growth.\n\n3. Healthy Fats: Healthy fats, such as those found in nuts, seeds, and avocados, provide long-lasting energy and help to absorb essential vitamins. They also support hormone production and overall health.\n\n4. Hydration: Proper hydration is crucial before a workout, as it helps to regulate body temperature, prevent muscle cramps, and improve overall performance. Drinking water or a hydrating beverage like coconut water can help ensure adequate hydration before exercise.\n\n5. Vitamins and Minerals: Consuming a balanced diet rich in vitamins and minerals is essential for overall health and exercise performance. These nutrients support various bodily functions, such as energy production, immune system function, and muscle recovery.\n\nIn summary, proper nutrients before a workout include carbohydrates for energy, protein for muscle growth and repair, healthy fats for long-lasting energy and overall health, hydration to regulate body temperature and prevent cramps, and vitamins and minerals to support various bodily functions. These nutrients are essential for optimal performance and recovery during exercise.",
+            "scores": {
+                "google_bleu": 0.07223113964686999,
+                "bertscore": {
+                    "precision": [
+                        0.5757768750190735
+                    ],
+                    "recall": [
+                        0.6241160035133362
+                    ],
+                    "f1": [
+                        0.598972737789154
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.2936708860759494,
+                    "rouge2": 0.0559796437659033,
+                    "rougeL": 0.14177215189873418,
+                    "rougeLsum": 0.19746835443037972
+                }
+            },
+            "feedback": "The response is well-organized and easy to follow, demonstrating high clarity and coherence. It covers all the essential nutrients that one should consume before a workout, explaining why they are important and what functions they perform during exercise. Each nutrient is discussed in a clear, detailed manner, making it easy for the reader to understand their significance. The response is entirely accurate, presenting correct details and facts about each nutrient, which is essential for optimal performance and recovery. Furthermore, it is free from irrelevant content that could undermine its relevance to the topic at hand. The information presented in the response is complete and easily digestible, thereby providing a comprehensive understanding of the importance of these nutrients before a workout. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "oqa1",
+            "input": "Why is Aberdeen called the Granite City?",
+            "expected_output": [
+                "Alberdeen's nickname, the Granite City, comes from the city's history and contribution of granite, in addition to the architectural style of more than fifty percent of the city's buildings. Many of the city's most popular buildings and residential properties were built using granite from large quarries around the Nort-East, most notably the Rubislaw Quarry in Aberdeen's west end. As technology and practices for handling a large amount of rock improved, Aberdeen quickly became the granite capital of the world, exporting granite by sea to several areas globally."
+            ],
+            "generated_output": "\nAberdeen is known as the Granite City because of the extensive use of granite in the city's buildings and infrastructure. The use of granite began in the 18th century when the city was rebuilt after the Great Fire of 1765. The granite was sourced from local quarries and was chosen for its durability and resistance to the harsh Scottish weather.\n\nThe city's architecture features many granite buildings, including Marischal College, St. Mark's Church, and the Gordon High School. The use of granite continued into the 19th and 20th centuries, with many of the city's public buildings, bridges, and monuments made from the material.\n\nToday, Aberdeen's nickname is still relevant as the city's iconic granite buildings and structures continue to define its character and appearance.",
+            "scores": {
+                "google_bleu": 0.11721611721611722,
+                "bertscore": {
+                    "precision": [
+                        0.6249542236328125
+                    ],
+                    "recall": [
+                        0.6442911624908447
+                    ],
+                    "f1": [
+                        0.6344753503799438
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.42152466367713,
+                    "rouge2": 0.18099547511312214,
+                    "rougeL": 0.27802690582959644,
+                    "rougeLsum": 0.2600896860986547
+                }
+            },
+            "feedback": "This response does an excellent job of explaining the origin of Aberdeen's nickname, 'The Granite City'. It is entirely relevant to the instruction and provides all necessary details for a comprehensive understanding of the topic. The explanation is also factually correct, demonstrating the accuracy of the information provided. It logically explains how Aberdeen became known for its granite architecture and shows a clear understanding of the topic. Moreover, the response is organized well, making it easy to follow and understand. The only minor issue is that the response could have elaborated a bit more on how the city's unique architectural style has contributed to its reputation as a 'Granite City'. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "oqa2",
+            "input": "Can foxes fit down rabbit burrows?",
+            "expected_output": [
+                "Foxes cannot fit into rabbit burrows, but that doesn't stop them from trying to. A fox will go down as far as possible and then dig using its semi-retractable claws, in an attempt to get the rabbit and drag it out."
+            ],
+            "generated_output": "\nCan foxes fit down rabbit burrows?\nFoxes are known for their agility and adaptability, but can they fit down rabbit burrows?\nFoxes are generally larger than rabbits, with adult red foxes weighing between 4.5 to 14 kg (10 to 31 lbs) and having a body length of 66 to 118 cm (26 to 46 inches). Rabbits, on the other hand, weigh between 1.5 to 6 kg (3.3 to 13.2 lbs) and have a body length of 35 to 50 cm (14 to 20 inches).\n\nDespite their size difference, foxes are known to be able to fit down rabbit burrows. This is because foxes are highly flexible and can squeeze through small spaces. They can also stretch their bodies to fit through narrow openings.\n\nHowever, foxes are not as well-suited to living in burrows as rabbits are. Rabbits have strong hind legs and sharp claws that help them dig and maintain their burrows. Foxes, on the other hand, are more adapted to living in a variety of habitats, including forests, grasslands, and deserts.\n\nIn conclusion, foxes can fit down rabbit burrows due to their flexibility and ability to squeeze through small spaces, but they are not as well-adapted to living in burrows as rabbits are.",
+            "scores": {
+                "google_bleu": 0.026652452025586353,
+                "bertscore": {
+                    "precision": [
+                        0.4094240069389343
+                    ],
+                    "recall": [
+                        0.5598618388175964
+                    ],
+                    "f1": [
+                        0.47296860814094543
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.15810276679841895,
+                    "rouge2": 0.00796812749003984,
+                    "rougeL": 0.11857707509881422,
+                    "rougeLsum": 0.11067193675889328
+                }
+            },
+            "feedback": "The response is mostly relevant and contains minor deviations from the topic, but it lacks the detail about foxes' attempts to catch rabbits in their burrows, which was the crucial aspect of the task. Furthermore, while the response contains accurate facts about foxes and rabbits, the logic of how foxes might potentially fit in rabbit burrows is slightly flawed, as it doesn't adequately consider the fox's physical limitations and potential issues in navigating these tight spaces. There is an effort to provide a well-organized, complete, and logically valid response, but the logical inconsistency and omission of key information makes the response less satisfactory. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "oqa3",
+            "input": "What was the most popular arcade game in the United States in 1990?",
+            "expected_output": [
+                "The highest-grossing arcade game in the United States in 1990 was Teenage Mutant Ninja Turtles. That same year, the game won a Diamond award from the American Amusement Machine Association (AAMA) for sales achievement."
+            ],
+            "generated_output": "\n\nThe most popular arcade game in the United States in 1990 was \"Streets of Rage 2\" developed by Sega.",
+            "scores": {
+                "google_bleu": 0.21333333333333335,
+                "bertscore": {
+                    "precision": [
+                        0.8358160257339478
+                    ],
+                    "recall": [
+                        0.6826673746109009
+                    ],
+                    "f1": [
+                        0.751518726348877
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.37037037037037035,
+                    "rouge2": 0.30769230769230765,
+                    "rougeL": 0.37037037037037035,
+                    "rougeLsum": 0.37037037037037035
+                }
+            },
+            "feedback": "This response does not align with the instruction given. The given instruction asked for the name of the most popular arcade game in the United States in 1990, and the response provided is about a specific game of that time, \"Streets of Rage 2\". It doesn't answer the question at all. The response did not provide any relevant information to the given topic. Furthermore, it does not include any essential details that could help a user gain a comprehensive understanding of the topic. Instead, it just simply provides information about the game without any relevance to the given instruction. In terms of clarity and consistency, the response is severely lacking in coherence and organization, which makes it very difficult to follow. The response is entirely incomplete as it does not answer the question at all and it lacks factual accuracy. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa4",
+            "input": "What is Feng Shui?",
+            "expected_output": [
+                "Feng Shui is an ancient Chinese practice of harmonizing individuals with their surrounding environment. This philosophy uses energy forces to create harmony between an individual and their environment. In interior design, Feng Shui is applied through the placement of furniture and objects to allow a smooth flow of energy, or \"qi,\" within a space. This could involve orienting a bed or desk in a certain way, using specific colors, clearing clutter, or balancing various elements (wood, fire, earth, metal, water) to create a peaceful, balanced environment conducive to health and prosperity."
+            ],
+            "generated_output": "\nFeng Shui is an ancient Chinese practice that focuses on arranging objects and spaces in a way that promotes positive energy flow and harmony. The term \"Feng Shui\" translates to \"wind-water\" in English, and it is based on the idea that the natural world, including the elements of wind and water, can influence our well-being and success.\n\nFeng Shui is often associated with interior design and architecture, as it involves making adjustments to the physical environment to create a more balanced and harmonious space. However, Feng Shui can also be applied to other areas of life, such as relationships, career, and personal growth.\n\nThe principles of Feng Shui are based on the idea that everything in the universe is connected, and that our surroundings can either support or hinder our personal growth and success. By understanding and applying the principles of Feng Shui, we can create spaces and environments that support our goals and aspirations, and help us achieve a greater sense of balance and harmony in our lives.\n\nSome of the key principles of Feng Shui include:\n\n1. The Bagua: The Bagua is an energy map that is used to determine the areas of your life that are affected by different aspects of Feng Shui. By placing the Bagua in your home or workspace, you can identify which areas are related to specific life aspects, such as career, relationships, health, and wealth.\n\n2. The Five Elements: Feng Shui is based on the idea that everything in the universe is connected through the five elements: wood, fire, earth, metal, and water. Each element is associated with different aspects of life and can be used to enhance the energy of a space.\n\n3. Yin and Yang: Feng Shui is based on the balance between yin and yang, the two opposing forces in the universe. By creating a balance between these forces, you can promote harmony and balance in your life.\n\n4. The Four Directions: Feng Shui is also based on the idea that each direction has its own energy and influence. By understanding the energy of each direction, you can use it to enhance the energy of a space and support your goals and aspirations.\n\n5. The Nine Grid: The Nine Grid is a system of nine squares that is used to divide a space into different areas, each with its own specific energy and influence. By understanding the energy of each square, you can use it to enhance the energy of a space and support your goals and aspirations.\n\nBy understanding and applying the principles of Feng Shui, you can create spaces and environments that support your goals and aspirations, and help you achieve a greater sense of balance and harmony in your life.",
+            "scores": {
+                "google_bleu": 0.05853658536585366,
+                "bertscore": {
+                    "precision": [
+                        0.5582465529441833
+                    ],
+                    "recall": [
+                        0.705807089805603
+                    ],
+                    "f1": [
+                        0.6234140396118164
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.20840950639853748,
+                    "rouge2": 0.06972477064220184,
+                    "rougeL": 0.12797074954296161,
+                    "rougeLsum": 0.15356489945155394
+                }
+            },
+            "feedback": "The response provided a comprehensive overview of Feng Shui, its origins, principles, and application. The explanation was well-organized and easy to follow, demonstrating a clear and coherent structure. It effectively explained all the major principles of Feng Shui, such as the Bagua, the five elements, yin and yang, the four directions, and the Nine Grid. However, the response lacked a few key details about how Feng Shui is actually practiced, such as how exactly one might use these principles in their home or workspace. The response also failed to discuss the role of Feng Shui in modern times or its relationship with other spiritual practices or disciplines. Despite these minor omissions, the response was largely factually correct and valid according to common sense. The response also displayed high accuracy, relevance, and adherence to the given instruction. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "oqa5",
+            "input": "Are there any particular physical benefits to mindful walking, such as improved posture or increased physical fitness?",
+            "expected_output": [
+                "Yes, there are physical benefits to mindful walking, such as improved posture, increased physical fitness, and better balance. Mindful walking can also help relieve tension in the body, reduce stress, and improve flexibility. It can also improve circulation and help with weight management. By tuning into the body, mindful walking can also help individuals identify and address any imbalances or discomfort, leading to a healthier and more aligned body."
+            ],
+            "generated_output": "\n\n- How can I practice mindful walking in my daily life?\n\n- Are there any potential risks or challenges associated with mindful walking?\n\n- How does mindful walking compare to other forms of meditation or relaxation techniques?\n\n- Are there any specific tips or techniques for practicing mindful walking effectively?\n\n- How can I incorporate mindful walking into my existing exercise or fitness routine?\n\n- Are there any research studies or scientific evidence supporting the benefits of mindful walking?\n\n- How can I learn more about mindful walking and find resources or guidance on practicing it?",
+            "scores": {
+                "google_bleu": 0.054187192118226604,
+                "bertscore": {
+                    "precision": [
+                        0.5298660397529602
+                    ],
+                    "recall": [
+                        0.5737869143486023
+                    ],
+                    "f1": [
+                        0.5509525537490845
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.2911392405063291,
+                    "rouge2": 0.03846153846153846,
+                    "rougeL": 0.16455696202531647,
+                    "rougeLsum": 0.17721518987341775
+                }
+            },
+            "feedback": "The response fails to answer the instruction and discuss the potential physical benefits of mindful walking, such as improved posture or increased physical fitness. It also misses key details regarding the benefits of mindful walking. The response contains numerous questions that are irrelevant to the topic at hand, thus significantly undermining its relevance. There is no clear organization or structure in the response, and it does not demonstrate any level of understanding about the topic. It does not provide any accurate information about the subject, and the logic and common sense behind it are largely absent. The response lacks completeness, as it fails to provide all the necessary details for a comprehensive understanding of the topic. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa6",
+            "input": "What percentage of the Earth's surface is covered by oceans?",
+            "expected_output": [
+                "About 71% of the Earth's surface is covered by oceans."
+            ],
+            "generated_output": "\n\nThe Earth's surface is covered by oceans.\n\nThe Earth's surface is covered by oceans.\n\nThe Earth's surface is covered by oceans.\n\nThe Earth's surface is covered by oceans.\n\nThe Earth's surface is covered by oceans.\n\nThe Earth's surface is covered by oceans.\n\nThe Earth's surface is covered by oceans.\n\nThe Earth's surface is covered by oceans.\n\nThe Earth's surface is covered by oceans.\n\nThe Earth's surface",
+            "scores": {
+                "google_bleu": 0.002361021678471775,
+                "bertscore": {
+                    "precision": [
+                        0.21335512399673462
+                    ],
+                    "recall": [
+                        0.46208739280700684
+                    ],
+                    "f1": [
+                        0.29192331433296204
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.006828851899274435,
+                    "rouge2": 0.005980350277659119,
+                    "rougeL": 0.006828851899274435,
+                    "rougeLsum": 0.006828851899274435
+                }
+            },
+            "feedback": "The response provided is entirely irrelevant to the given instruction. It lacks accuracy and logic, as it doesn't contain any information about the percentage of the Earth's surface covered by oceans. Furthermore, the response does not have a clear and consistent structure, and it is not easy to follow. It fails to provide any relevant details or facts to provide a comprehensive understanding of the topic. It also lacks common sense as there is no factual information about the Earth's surface coverage by oceans. So the overall score is 1.",
+            "prometheus_score": 1
+        },
+        {
+            "id": "oqa7",
+            "input": "How does language translation technology impact globalization?",
+            "expected_output": [
+                "Language translation technology has a significant impact on globalization in the following ways:\n\n1. Breaking down language barriers: Translation technology enables individuals and businesses to communicate with people from different countries who speak different languages. This leads to greater collaboration, trade, and cultural exchange, which promotes globalization.\n\n2. Facilitating cross-border communication: With translation technology, people can communicate with each other without the need for an interpreter or being proficient in another language. This makes it easier for businesses to expand into new markets and for individuals to connect with people from different cultures.\n\n3. Increasing accessibility: Translation technology has made it easier for people to access information from different parts of the world, regardless of the language barrier. This has led to greater cultural exchange and has provided people with broader, diverse perspectives.\n\n4. Promoting multilingualism: As translation technology becomes more prevalent, individuals and businesses are recognizing the value of being multilingual. This has led to greater interest in learning new languages and has contributed to the globalization of language learning.\n\nOverall, language translation technology has revolutionized cross-cultural communication and has played a critical role in promoting globalization."
+            ],
+            "generated_output": "\nLanguage translation technology has had a significant impact on globalization by breaking down barriers between people who speak different languages. This has facilitated communication, understanding, and collaboration among individuals and organizations from different parts of the world.\n\nOne of the most notable impacts of language translation technology is the growth of the internet and digital communication platforms. With the help of translation tools, people can access and share information across borders, regardless of the language they speak. This has led to a more connected and interdependent world, where ideas, products, and services can be easily shared and consumed by a global audience.\n\nMoreover, language translation technology has enabled businesses to expand their reach and tap into new markets. By translating their websites, marketing materials, and customer support services, companies can communicate effectively with potential customers who speak different languages. This has led to increased trade and economic growth, as businesses can now cater to a broader customer base.\n\nFurthermore, language translation technology has also played a crucial role in fostering cross-cultural understanding and cooperation. By breaking down language barriers, people from different cultures can learn from each other, share ideas, and work together on common goals. This has led to increased global awareness, tolerance, and appreciation of diversity.\n\nIn conclusion, language translation technology has had a profound impact on globalization by facilitating communication, promoting trade, and fostering cross-cultural understanding. As a result, the world has become more interconnected and interdependent, leading to increased collaboration and cooperation among individuals and organizations from different parts of the world.",
+            "scores": {
+                "google_bleu": 0.20395869191049915,
+                "bertscore": {
+                    "precision": [
+                        0.6918661594390869
+                    ],
+                    "recall": [
+                        0.7062017321586609
+                    ],
+                    "f1": [
+                        0.6989604234695435
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.5133928571428572,
+                    "rouge2": 0.23766816143497754,
+                    "rougeL": 0.2633928571428571,
+                    "rougeLsum": 0.45089285714285715
+                }
+            },
+            "feedback": "The response provides an accurate and comprehensive overview of how language translation technology impacts globalization. It clearly explains how translation technology breaks down language barriers and enhances communication between individuals and businesses. The response is logically valid and contains all necessary details to give a comprehensive understanding of the topic. The logic and common sense used in the response are impeccable. The response adheres to the given topic and remains relevant throughout, making it easily understandable. The response does not contain any factual errors and maintains accuracy throughout. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "oqa8",
+            "input": "What role does collaboration and collective creativity play in the pursuit of originality?",
+            "expected_output": [
+                "Collaboration and collective creativity play a significant role in the pursuit of originality. When individuals come together to work on a project or idea, they bring different perspectives and skill sets to the table. This collaboration can lead to new and innovative ideas that may not have been possible if the individuals were working alone.\n\nCollective creativity can also lead to a greater diversity of ideas and perspectives, which can help to create more original and unique outcomes. Working in a team allows individuals to bounce ideas off one another, challenge assumptions, and build on each other's ideas, ultimately leading to more originality.\n\nMoreover, collaboration provides opportunities for feedback and criticism, allowing for ideas to be refined and improved over time. The collaborative process also helps to ensure that ideas are tested and validated, ultimately resulting in more original and valuable outcomes.\n\nOverall, collaboration and collective creativity are crucial components in the pursuit of originality as they provide a platform for individuals to share their ideas, build on each other's strengths, and ultimately create something new and innovative."
+            ],
+            "generated_output": "\n\nCollaboration and collective creativity play a significant role in the pursuit of originality. By working together, individuals can combine their unique perspectives, experiences, and skills to generate new ideas and approaches that may not have been possible if they were working independently.\n\nCollaboration allows for the exchange of diverse perspectives, which can lead to the development of innovative solutions and the discovery of new insights. This diversity of thought can help to break down mental barriers and challenge existing assumptions, enabling the group to explore a wider range of possibilities.\n\nIn addition, collective creativity can help to reduce the effects of cognitive biases and groupthink, which can hinder the pursuit of originality. By working together, individuals can challenge each other's ideas and help to refine and improve them, leading to more original and effective outcomes.\n\nFurthermore, collaboration can help to build a sense of shared ownership and commitment to the project or idea, which can increase motivation and drive the pursuit of originality even further.\n\nOverall, collaboration and collective creativity are essential components of the pursuit of originality, as they enable individuals to combine their unique strengths and perspectives to generate novel ideas and solutions.",
+            "scores": {
+                "google_bleu": 0.2773892773892774,
+                "bertscore": {
+                    "precision": [
+                        0.7840391397476196
+                    ],
+                    "recall": [
+                        0.8004615306854248
+                    ],
+                    "f1": [
+                        0.792165219783783
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.5744680851063829,
+                    "rouge2": 0.28342245989304815,
+                    "rougeL": 0.3829787234042553,
+                    "rougeLsum": 0.5319148936170212
+                }
+            },
+            "feedback": "The response demonstrates a deep understanding of the role that collaboration and collective creativity play in the pursuit of originality. It correctly explains how collaboration brings different perspectives, skills, and experiences together, leading to new ideas and solutions. It also touches on the benefits of collective creativity, such as breaking down mental barriers and reducing the effects of cognitive biases. Furthermore, the response highlights the importance of shared ownership and commitment to projects or ideas, which can increase motivation and drive originality. The logic and common sense in the response are valid and aligned with the given prompt. The response is well-organized, demonstrating clarity and coherence, and contains all the necessary details for a comprehensive understanding of the topic. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "oqa9",
+            "input": "What are the most important features in a smartphone?",
+            "expected_output": [
+                "As an AI language model, I do not have personal preferences or opinions. However, some of the most important features in a smartphone are:\n\n1. Operating System: The operating system of a smartphone enables you to interact with the device. The most popular operating systems are Android and iOS.\n\n2. Processor: A powerful processor ensures that the phone performs quickly and efficiently. The latest Snapdragon and A-series processors are popular among smartphone users.\n\n3. Battery Life: A long-lasting battery is always an attractive feature in a smartphone. Before buying a smartphone, make sure it has a battery life of at least one day with heavy usage.\n\n4. Camera: The camera is a crucial feature in today's smartphones. Good image quality, 4k video recording, optical zoom, and portrait mode are some of the popular features that users look for in a smartphone camera.\n\n5. Storage: A sufficient amount of storage is necessary to store images, videos, and other important files. Nowadays, many smartphones come with internal storage options ranging from 64GB to 512GB.\n\n6. Display: Display size, resolution, and technology are important features that enhance the user's experience while using a smartphone.\n\n7. Connectivity: Features like Bluetooth, Wi-Fi, NFC, and 5G connectivity are important features in a smartphone. \n\n8. Security: Fingerprint sensors, facial recognition, and passcodes are essential features for securing your device and data. \n\n9. Design: The design of a smartphone should be attractive, slim, and lightweight. It should feel comfortable in your hand and have a good grip. \n\n10. Price: The price of the smartphone is an important consideration for many people. It should offer good value for money and be affordable according to your budget."
+            ],
+            "generated_output": "\n\nThere are many important features in a smartphone, but some of the most essential ones include:\n\n1. Processor: The processor is the brain of the smartphone, and it determines how fast and efficiently the device can perform tasks. A faster processor will provide a smoother user experience and better performance.\n\n2. Battery life: A long-lasting battery is crucial for a smartphone, as it allows users to go about their day without constantly worrying about charging the device. A battery that lasts at least 8 hours of regular use is considered good.\n\n3. Camera: The camera is one of the most used features on a smartphone, and a good camera can capture high-quality photos and videos. A smartphone with a high-resolution camera and advanced features like optical zoom, image stabilization, and low-light performance is ideal.\n\n4. Display: The display is the main way users interact with their smartphone, and a good display should be bright, colorful, and easy to read. A high-resolution display with a large screen size is also desirable for watching videos and playing games.\n\n5. Storage: A smartphone with ample storage allows users to store their photos, videos, apps, and other files without constantly running out of space. A minimum of 64GB is recommended for most users, but 128GB or more is even better.\n\n6. Operating system: The operating system is the foundation of the smartphone's software, and it determines how the device functions and what features are available. Android and iOS are the two most popular operating systems, and each has its own strengths and weaknesses.\n\n7. Connectivity: A smartphone should have a variety of connectivity options, including Wi-Fi, Bluetooth, and cellular data. This allows users to connect to the internet, other devices, and make phone calls.\n\n8. Water resistance: Many smartphones are now water-resistant, which can protect the device from accidental spills and splashes. This feature is especially useful for those who are prone to dropping their phone in water.\n\n9. Security: A smartphone should have built-in security features, such as a fingerprint scanner, facial recognition, or a secure encryption system, to protect users' personal information and data.\n\n10. Price: While it's important to consider the features and performance of a smartphone, the price is also a significant factor. A smartphone with a balance of features, performance, and price is ideal for most users.",
+            "scores": {
+                "google_bleu": 0.2145214521452145,
+                "bertscore": {
+                    "precision": [
+                        0.7568337321281433
+                    ],
+                    "recall": [
+                        0.7889677286148071
+                    ],
+                    "f1": [
+                        0.7725667357444763
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.5588235294117647,
+                    "rouge2": 0.18289085545722714,
+                    "rougeL": 0.2411764705882353,
+                    "rougeLsum": 0.4852941176470588
+                }
+            },
+            "feedback": "The response provided a comprehensive list of the most important features in a smartphone, with accurate and factually correct information. It was well-organized and easy to follow, demonstrating high clarity and coherence. The response included relevant details such as processor, battery life, camera, display, storage, operating system, connectivity, water resistance, security, and price. The logic behind the listed features was sound and made complete sense, according to common sense. All the points were aligned with the topic of discussing the essential features of a smartphone. Therefore, the response aligns with the score rubric criteria of being entirely relevant and aligned with the topic, context, theme, or subject. The response didn't contain any inaccuracies and was factually correct, thereby adhering to the score rubric criteria of being entirely accurate and factually correct. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "tg5",
+            "input": "Describe a time when you had to make a difficult decision.",
+            "expected_output": [
+                "I had to make a difficult decision when I was working as a project manager at a construction company. I was in charge of a project that needed to be completed by a certain date in order to meet the client\u2019s expectations. However, due to unexpected delays, we were not able to meet the deadline and so I had to make a difficult decision. I decided to extend the deadline, but I had to stretch the team\u2019s resources even further and increase the budget. Although it was a risky decision, I ultimately decided to go ahead with it to ensure that the project was completed on time and that the client\u2019s expectations were met. The project was eventually successfully completed and this was seen as a testament to my leadership and decision-making abilities."
+            ],
+            "generated_output": " How did you go about making it? What was the outcome?\n\nSome possible ways to answer this question are:\n\n- I had to decide whether to accept a job offer from a company that was located far away from my family and friends. I weighed the pros and cons of the opportunity, such as the salary, the work environment, and the potential for growth. Ultimately, I decided to accept the offer because I believed it would be a great opportunity for me to develop my skills and advance my career. The outcome was that I moved to a new city and started a new job, which was challenging but also rewarding.\n- One of the most difficult decisions I ever had to make was whether to end a long-term relationship with my boyfriend. We had been together for several years, but we had grown apart and were not happy anymore. I thought about how much we had invested in the relationship, how it would affect our friends and family, and how it would impact my future plans. After a lot of soul-searching, I decided to break up with him because I realized that I deserved to be with someone who truly loved and supported me. The outcome was that we both moved on and found happiness in other relationships.\n- I had to decide whether to take a risk and start my own business. I had been working in my field for a few years, but I felt unfulfilled and wanted to pursue my passion. I considered the financial implications, the market demand, and the potential challenges of running a business. After consulting with mentors and doing extensive research, I decided to take the plunge and start my own company. The outcome was that I faced many obstacles and challenges, but I also experienced a lot of growth and success.",
+            "scores": {
+                "google_bleu": 0.07879234167893961,
+                "bertscore": {
+                    "precision": [
+                        0.5386764407157898
+                    ],
+                    "recall": [
+                        0.5869220495223999
+                    ],
+                    "f1": [
+                        0.5617653131484985
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.336322869955157,
+                    "rouge2": 0.058558558558558564,
+                    "rougeL": 0.19282511210762335,
+                    "rougeLsum": 0.23766816143497757
+                }
+            },
+            "feedback": "The response is well-aligned with the prompt and presents a clear and organized account of a difficult decision made by the responder. The context of the decision and the process taken to reach the conclusion are well-illustrated, making it easy to understand and relate to. The response also displays empathy by acknowledging the emotional weight of the decision, thus demonstrating a considerate tone throughout. Additionally, the outcome of the decision is mentioned, providing closure to the story. Therefore, the response effectively meets all the criteria of the score rubric. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "tg6",
+            "input": "Generate a list of ten items a person might need for a camping trip.",
+            "expected_output": [
+                "1. Tent 2. Sleeping bags 3. Flashlight 4. Matches/lighter 5. Insect repellent 6. Extra clothes 7. First aid kit 8. Camp stove 9. Cooking utensils 10. Biodegradable soaps/shampoos"
+            ],
+            "generated_output": "\n\nPossible list:\n\n1. Tent\n2. Sleeping bag\n3. Camping mat\n4. Cooking stove\n5. Pots and pans\n6. Cooler or icebox\n7. Food and drinks\n8. Lantern or flashlight\n9. Camping chair\n10. Personal hygiene items",
+            "scores": {
+                "google_bleu": 0.24725274725274726,
+                "bertscore": {
+                    "precision": [
+                        0.6729595065116882
+                    ],
+                    "recall": [
+                        0.7065969705581665
+                    ],
+                    "f1": [
+                        0.6893681883811951
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.45454545454545453,
+                    "rouge2": 0.09375,
+                    "rougeL": 0.3636363636363636,
+                    "rougeLsum": 0.39393939393939387
+                }
+            },
+            "feedback": "The response is accurate, providing a complete list of items needed for a camping trip. The list is aligned with the topic, making it relevant and consistent. However, the response did not specify items such as insect repellent, extra clothes, first aid kit, and biodegradable soaps/shampoos which were mentioned in the reference response. Although these items are minor omissions, they do impact the completeness of the list, and would require some effort to include them. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "tg7",
+            "input": "Describe the function of a computer motherboard",
+            "expected_output": [
+                "A computer motherboard is the main circuit board in a computer. It is the backbone of the system, connecting all other components such as the processor, RAM, storage, graphics card and peripheral ports. It provides communication pathways between all of these components, allowing them to interact and work together. The motherboard is responsible for regulating power, and also houses slots for expansion cards, as well as ports for USB, audio, Ethernet, and other connection types."
+            ],
+            "generated_output": ".\n\nA computer motherboard is the main circuit board inside a computer that connects and supports all the essential components, such as the processor, memory, storage, and input/output devices. It allows these components to communicate with each other and perform various tasks.",
+            "scores": {
+                "google_bleu": 0.19428571428571428,
+                "bertscore": {
+                    "precision": [
+                        0.8010847568511963
+                    ],
+                    "recall": [
+                        0.7366316914558411
+                    ],
+                    "f1": [
+                        0.7675074338912964
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.4444444444444445,
+                    "rouge2": 0.22608695652173913,
+                    "rougeL": 0.39316239316239315,
+                    "rougeLsum": 0.39316239316239315
+                }
+            },
+            "feedback": "The response is generally accurate and does a good job in describing the function of a computer motherboard. However, it lacks some details such as mentioning that the motherboard houses slots for expansion cards and ports for various connection types like USB, audio, and Ethernet. Additionally, while it highlights the function of a computer motherboard, it doesn't explain how it regulates power supply to other components, which is an essential part of its functionality. Despite these minor inaccuracies, the response is largely relevant, clear, and easy to understand, making it informative and valuable. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "tg8",
+            "input": "Explain the concept of cogging torque.",
+            "expected_output": [
+                "Cogging torque is the torque that is applied to a rotating device when the device experiences resistance from the teeth of the gears that are connected to the device. Cogging torque occurs due to the reaction force generated when the teeth of the gear drive mesh. This force pushes against each other, resulting in a drag force that is transmitted from the gears to the shaft. The magnitude of the cogging torque can vary depending on the size and number of teeth, as well as the gear's material and design. Cogging torque is undesirable in most motorized applications, as it can lead to loss of efficiency. To reduce cogging torque, gear designs are often symmetrical or have certain tooth profiles which reduce the force of contact between the teeth when they come into contact with each other."
+            ],
+            "generated_output": "\n\nCogging torque is the torque generated by the interaction of the permanent magnets and the teeth of the rotor in a permanent magnet synchronous motor (PMSM). This torque is experienced during each magnetic pole reversal as the rotor passes through the alternating magnetic fields of the stator. The cogging torque is responsible for the discrete steps in the rotor position and is proportional to the number of poles in the stator. The cogging torque can be reduced by using a salient pole rotor, which has a more distributed magnetic field, or by using a skewed or offset pole rotor, which reduces the effect of the cogging torque on the rotor position.",
+            "scores": {
+                "google_bleu": 0.1563573883161512,
+                "bertscore": {
+                    "precision": [
+                        0.6417815685272217
+                    ],
+                    "recall": [
+                        0.6533674001693726
+                    ],
+                    "f1": [
+                        0.6475226879119873
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.4176706827309237,
+                    "rouge2": 0.16194331983805668,
+                    "rougeL": 0.27309236947791166,
+                    "rougeLsum": 0.27309236947791166
+                }
+            },
+            "feedback": "The response accurately explains the concept of cogging torque in the context of a permanent magnet synchronous motor. It clearly demonstrates an understanding of the topic and aligns with the prompt. The explanation of how cogging torque is generated and its relationship to the number of poles in the stator was presented logically. The information on reducing cogging torque using different rotor types was relevant and added depth to the explanation. The response maintained clarity and coherence throughout, making it easy to follow. Furthermore, it was comprehensive in explaining the concept and did not omit any crucial details. So the overall score is 5.",
+            "prometheus_score": 5
+        },
+        {
+            "id": "tg9",
+            "input": "Generate a list of adjectives that describe a person as brave.",
+            "expected_output": [
+                "Courageous, heroic, audacious, vigorous, valorous, resolute, intrepid, bold, brave, daring, tenacious, plucky, stout-hearted, doughty, gallant, fearless, undaunted, spirited, daredevil."
+            ],
+            "generated_output": "\n\nPossible adjectives that describe a person as brave are:\n\n1. Courageous\n2. Fearless\n3. Valorous\n4. Dauntless\n5. Intrepid\n6. Gallant\n7. Valiant\n8. Heroic\n9. Stout\n10. Steadfast",
+            "scores": {
+                "google_bleu": 0.01948051948051948,
+                "bertscore": {
+                    "precision": [
+                        0.4911646842956543
+                    ],
+                    "recall": [
+                        0.6358934044837952
+                    ],
+                    "f1": [
+                        0.5542365312576294
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.32653061224489793,
+                    "rouge2": 0.0,
+                    "rougeL": 0.16326530612244897,
+                    "rougeLsum": 0.32653061224489793
+                }
+            },
+            "feedback": "The response shows good alignment with the topic of the prompt. The list of adjectives provided are all relevant to the concept of bravery, with only slight deviations from the expected scope. For example, \"gallant\" and \"stout\" may not be typically associated with bravery, but they are still related to courage and determination. The response could be improved by offering a more exhaustive list and being more consistent in its use of bravery-related terms. Despite these minor issues, the response is mostly clear, organized, and complete. There are also no major factual errors, contributing to its overall accuracy. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "oqa10",
+            "input": "What is an API ?",
+            "expected_output": [
+                "API stands for Application Programming Interface. It is a set of instructions or programming instructions that allow two applications to communicate and exchange data with each other. APIs provide a way for developers to access and manipulate data and services offered by other applications or platforms. They are an essential part of modern web development and allow developers to develop complex applications and websites using modular components."
+            ],
+            "generated_output": "\n\nAn API (Application Programming Interface) is a set of rules and specifications that allows different software programs to communicate with each other. It defines how software components should interact and APIs allow developers to integrate their applications with other services.\n\nIn the context of the Internet of Things, APIs are used to enable communication between devices, platforms, and applications. For example, an API can allow a smart home device to send data to a cloud-based platform, which can then be used by a mobile app to control the device.\n\nAPIs can be public or private, meaning they can be accessible to anyone or only to specific developers or applications. Public APIs are often used to provide access to third-party services, such as weather data or maps, while private APIs are used to provide access to internal systems or proprietary data.",
+            "scores": {
+                "google_bleu": 0.11003236245954692,
+                "bertscore": {
+                    "precision": [
+                        0.6536623239517212
+                    ],
+                    "recall": [
+                        0.7593730092048645
+                    ],
+                    "f1": [
+                        0.702563464641571
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.430622009569378,
+                    "rouge2": 0.09661835748792272,
+                    "rougeL": 0.22966507177033496,
+                    "rougeLsum": 0.27751196172248804
+                }
+            },
+            "feedback": "The response accurately describes what an API is and provides a clear explanation of its functionality. However, it could have provided more context on how APIs facilitate the exchange of data and communication between different software systems. While the response covers the basics of APIs, it falls short in detailing their broader significance in the modern web development landscape and the intricacies of using APIs in complex application development. Furthermore, the response does not elaborate enough on the role of APIs in enabling communication between IoT devices and services. Despite these shortcomings, the response demonstrates a sound understanding of the topic and provides a coherent explanation. So the overall score is 4.",
+            "prometheus_score": 4
+        },
+        {
+            "id": "tg10",
+            "input": "Write a short paragraph about the importance of using renewable energy.",
+            "expected_output": [
+                "The use of renewable energy is growing rapidly in relevance and importance as the world looks towards solutions to combat climate change. Renewable energy sources, such as solar, wind, and hydropower, are sustainable and have a much lower environmental impact than traditional energy sources like coal and oil. Switching to renewable energy can reduce carbon emissions, improve air quality, lessen the dependence on non-renewable resources, and provide a stable and secure energy future. Renewable energy is essential for achieving a sustainable future and should be an important part of any country\u2019s energy portfolio."
+            ],
+            "generated_output": "\n\nRenewable energy is a crucial aspect of our modern world. It is the energy that is collected from renewable resources, such as sunlight, wind, rain, tides, and geothermal heat. These resources are replenished naturally and continuously, making them a sustainable and environmentally friendly option for powering our homes, businesses, and transportation.\n\nUsing renewable energy is essential for several reasons. First, it helps to reduce our reliance on fossil fuels, which are finite resources that contribute to climate change and air pollution when burned. By utilizing renewable energy sources, we can decrease greenhouse gas emissions and slow the effects of global warming.\n\nSecond, renewable energy promotes energy independence and security. By generating power from local sources, we can reduce our dependence on foreign oil and create jobs in our communities. This not only strengthens our economy but also enhances our national security by decreasing our vulnerability to disruptions in global oil supplies.\n\nFinally, renewable energy is a clean and sustainable option for meeting our energy needs. Unlike fossil fuels, which can cause environmental damage and health problems, renewable energy sources do not produce harmful emissions or contribute to pollution. By investing in renewable energy, we can protect our environment and ensure a cleaner, healthier future for generations to come.\n\nIn conclusion, the importance of using renewable energy cannot be overstated. It helps to reduce our reliance on fossil fuels, promote energy independence and security, and provide a clean and sustainable energy source for our world. By embracing renewable energy, we can create a more sustainable and environmentally friendly future for all.",
+            "scores": {
+                "google_bleu": 0.08629441624365482,
+                "bertscore": {
+                    "precision": [
+                        0.6171646118164062
+                    ],
+                    "recall": [
+                        0.7028350830078125
+                    ],
+                    "f1": [
+                        0.6572197675704956
+                    ],
+                    "hashcode": "microsoft/deberta-xlarge-mnli_L40_no-idf_version=0.3.12(hug_trans=4.35.2)"
+                },
+                "rouge": {
+                    "rouge1": 0.3323943661971831,
+                    "rouge2": 0.10764872521246459,
+                    "rougeL": 0.18591549295774648,
+                    "rougeLsum": 0.21971830985915494
+                }
+            },
+            "feedback": "The response successfully aligns with the topic and remains relevant, demonstrating a strong understanding of the importance of renewable energy. It clearly outlines the benefits of transitioning to renewable energy, providing accurate information and logical arguments that support this transition. The response effectively structures the topic in a coherent manner, from highlighting the advantages of renewable energy, to how it promotes energy independence and finally discussing its environmental impact. This clear organization makes it easy for the reader to follow and grasp the main points. So the overall score is 5.",
+            "prometheus_score": 5
+        }
+    ]
+}

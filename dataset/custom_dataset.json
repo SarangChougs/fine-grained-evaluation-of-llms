@@ -1,0 +1,124 @@
+{
+    "examples": [
+        {
+            "id": "tg1",
+            "input": "I need an 80s sci-fi fantasy character introduction for my newest novel. The main character’s name is Drake, and the year is 3098.",
+            "target": "The flashing neon lights bounced off Drake’s face as he stepped out of the shadows. As a rogue bounty hunter, there was nothing Drake feared, and the scar covering his left eye proved this even further. \n\nHe had otherworldly energy about him, his electric undercut framing his face. His lone eye was like a star, burning wildly in his journey to find out the truth regarding his family. As he walked through the streets, heads turned in awe—this hero was synonymous with hope for the people and the city, as 3098 was the universe’s most dangerous year.\n\nIn Drake’s holster was a next-generation laser pistol capable of exterminating dangerous cyborgs in just one good shot. It was clear Drake was fighting on the side of humanity, clinging to hope that his own agenda would someday be fulfilled.",
+            "type": "text-generation"
+        },
+        {
+            "id": "tg2",
+            "input": "Can you please explain what vegans eat and don’t eat to a child? Use specific examples of the foods they can and cannot eat.",
+            "target": "People who eat a vegan diet do not eat any food that is made from or by an animal. That means they do not eat meat or fish, like chicken, turkey sandwiches, tuna, or hamburgers. And because chickens make eggs and cows and sheep make milk and cheese, they don’t eat those things either. Vegans eat vegetables, fruits, beans, and grains, like pasta and rice.",
+            "type": "text-generation"
+        },
+        {
+            "id": "tg3",
+            "input": "Write an email request to someone who is a reference for an applicant to a job I've posted. Please ask the person to tell us about strengths, areas of growth, if they would do well in all aspects of the role (it involves supervising students but can have a lot of admin and organization at times), also anything else they want to tell us - put this as a list. I can also call if that would be preferred. It should be professional in tone but not too formal.",
+            "target": "Hello [name]\n\nI hope this finds you well.\n\nI am doing a reference check for [applicant name] who has applied for a [position name] position here at [organization name]. [He/she] gave your contact information as a reference. Could you speak to the areas below: \n1. [His/her] strengths\n2. [His/her] growth areas\n3. This role involves the supervision of students as well as, at times, heavy administration work. Do you think [he/she] would do equally well in these two areas? \n4. Is there anything else that you think would be helpful for us to know?\n\nIf you'd prefer me to give you a call to talk through this instead, let me know!\n\nMany thanks for your time.\n\n[name]",
+            "type": "text-generation"
+        },
+        {
+            "id": "tg4",
+            "input": "Briefly write what proper nutrients someone should get before a workout and why.",
+            "target": "Prior to exercise, fueling your body with the right nutrients is crucial for optimal performance. The three main macronutrients, namely carbs, protein, and fat, play specific roles in providing energy and supporting muscle function during workouts. Carbohydrates are important for short and high-intensity exercises, as they fuel your muscles by replenishing glycogen stores. Protein consumption before exercise can enhance muscle protein synthesis, leading to benefits such as increased muscle mass, improved recovery, and enhanced performance. While fat serves as a source of fuel for longer and moderate-to-low intensity exercises, the effects of fat intake specifically before exercise require further research. Overall, understanding the role of each macronutrient and their appropriate consumption can help optimize your pre-workout nutrition.",
+            "type": "text-generation"
+        },
+        {
+            "id": "oqa1",
+            "input": "Why is Aberdeen called the Granite City?",
+            "target": "Alberdeen's nickname, the Granite City, comes from the city's history and contribution of granite, in addition to the architectural style of more than fifty percent of the city's buildings. Many of the city's most popular buildings and residential properties were built using granite from large quarries around the Nort-East, most notably the Rubislaw Quarry in Aberdeen's west end. As technology and practices for handling a large amount of rock improved, Aberdeen quickly became the granite capital of the world, exporting granite by sea to several areas globally.",
+            "type": "open-qa"
+        },
+        {
+            "id": "oqa2",
+            "input": "Can foxes fit down rabbit burrows?",
+            "target": "Foxes cannot fit into rabbit burrows, but that doesn't stop them from trying to. A fox will go down as far as possible and then dig using its semi-retractable claws, in an attempt to get the rabbit and drag it out.",
+            "type": "open-qa"
+        },
+        {
+            "id": "oqa3",
+            "input": "What was the most popular arcade game in the United States in 1990?",
+            "target": "The highest-grossing arcade game in the United States in 1990 was Teenage Mutant Ninja Turtles. That same year, the game won a Diamond award from the American Amusement Machine Association (AAMA) for sales achievement.",
+            "type":"open-qa"
+        },
+        {
+            "id": "oqa4",
+            "input": "What is Feng Shui?",
+            "target": "Feng Shui is an ancient Chinese practice of harmonizing individuals with their surrounding environment. This philosophy uses energy forces to create harmony between an individual and their environment. In interior design, Feng Shui is applied through the placement of furniture and objects to allow a smooth flow of energy, or \"qi,\" within a space. This could involve orienting a bed or desk in a certain way, using specific colors, clearing clutter, or balancing various elements (wood, fire, earth, metal, water) to create a peaceful, balanced environment conducive to health and prosperity.",
+            "type": "open-qa"
+        },
+        {
+            "id": "oqa5",
+            "input": "Are there any particular physical benefits to mindful walking, such as improved posture or increased physical fitness?",
+            "target": "Yes, there are physical benefits to mindful walking, such as improved posture, increased physical fitness, and better balance. Mindful walking can also help relieve tension in the body, reduce stress, and improve flexibility. It can also improve circulation and help with weight management. By tuning into the body, mindful walking can also help individuals identify and address any imbalances or discomfort, leading to a healthier and more aligned body.",
+            "type": "open-qa"
+        },
+        {
+            "id": "oqa6",
+            "input": "What percentage of the Earth's surface is covered by oceans?",
+            "target": "About 71% of the Earth's surface is covered by oceans.",
+            "type": "open-qa"
+        },
+        {
+            "id": "oqa7",
+            "input": "How does language translation technology impact globalization?",
+            "target": "Language translation technology has a significant impact on globalization in the following ways:\n\n1. Breaking down language barriers: Translation technology enables individuals and businesses to communicate with people from different countries who speak different languages. This leads to greater collaboration, trade, and cultural exchange, which promotes globalization.\n\n2. Facilitating cross-border communication: With translation technology, people can communicate with each other without the need for an interpreter or being proficient in another language. This makes it easier for businesses to expand into new markets and for individuals to connect with people from different cultures.\n\n3. Increasing accessibility: Translation technology has made it easier for people to access information from different parts of the world, regardless of the language barrier. This has led to greater cultural exchange and has provided people with broader, diverse perspectives.\n\n4. Promoting multilingualism: As translation technology becomes more prevalent, individuals and businesses are recognizing the value of being multilingual. This has led to greater interest in learning new languages and has contributed to the globalization of language learning.\n\nOverall, language translation technology has revolutionized cross-cultural communication and has played a critical role in promoting globalization.",
+            "type": "open-qa"
+        },
+        {
+            "id": "oqa8",
+            "input": "What role does collaboration and collective creativity play in the pursuit of originality?",
+            "target": "Collaboration and collective creativity play a significant role in the pursuit of originality. When individuals come together to work on a project or idea, they bring different perspectives and skill sets to the table. This collaboration can lead to new and innovative ideas that may not have been possible if the individuals were working alone.\n\nCollective creativity can also lead to a greater diversity of ideas and perspectives, which can help to create more original and unique outcomes. Working in a team allows individuals to bounce ideas off one another, challenge assumptions, and build on each other's ideas, ultimately leading to more originality.\n\nMoreover, collaboration provides opportunities for feedback and criticism, allowing for ideas to be refined and improved over time. The collaborative process also helps to ensure that ideas are tested and validated, ultimately resulting in more original and valuable outcomes.\n\nOverall, collaboration and collective creativity are crucial components in the pursuit of originality as they provide a platform for individuals to share their ideas, build on each other's strengths, and ultimately create something new and innovative.",
+            "type": "open-qa"
+        },
+        {
+            "id": "oqa9",
+            "input": "What are the most important features in a smartphone?",
+            "target": "As an AI language model, I do not have personal preferences or opinions. However, some of the most important features in a smartphone are:\n\n1. Operating System: The operating system of a smartphone enables you to interact with the device. The most popular operating systems are Android and iOS.\n\n2. Processor: A powerful processor ensures that the phone performs quickly and efficiently. The latest Snapdragon and A-series processors are popular among smartphone users.\n\n3. Battery Life: A long-lasting battery is always an attractive feature in a smartphone. Before buying a smartphone, make sure it has a battery life of at least one day with heavy usage.\n\n4. Camera: The camera is a crucial feature in today's smartphones. Good image quality, 4k video recording, optical zoom, and portrait mode are some of the popular features that users look for in a smartphone camera.\n\n5. Storage: A sufficient amount of storage is necessary to store images, videos, and other important files. Nowadays, many smartphones come with internal storage options ranging from 64GB to 512GB.\n\n6. Display: Display size, resolution, and technology are important features that enhance the user's experience while using a smartphone.\n\n7. Connectivity: Features like Bluetooth, Wi-Fi, NFC, and 5G connectivity are important features in a smartphone. \n\n8. Security: Fingerprint sensors, facial recognition, and passcodes are essential features for securing your device and data. \n\n9. Design: The design of a smartphone should be attractive, slim, and lightweight. It should feel comfortable in your hand and have a good grip. \n\n10. Price: The price of the smartphone is an important consideration for many people. It should offer good value for money and be affordable according to your budget.",
+            "type": "open-qa"
+        },
+        {
+            "id": "tg5",
+            "input": "Describe a time when you had to make a difficult decision.",
+            "target": "I had to make a difficult decision when I was working as a project manager at a construction company. I was in charge of a project that needed to be completed by a certain date in order to meet the client’s expectations. However, due to unexpected delays, we were not able to meet the deadline and so I had to make a difficult decision. I decided to extend the deadline, but I had to stretch the team’s resources even further and increase the budget. Although it was a risky decision, I ultimately decided to go ahead with it to ensure that the project was completed on time and that the client’s expectations were met. The project was eventually successfully completed and this was seen as a testament to my leadership and decision-making abilities.",
+            "type": "text-generation"
+        },
+        {
+            "id": "tg6",
+            "input": "Generate a list of ten items a person might need for a camping trip.",
+            "target": "1. Tent 2. Sleeping bags 3. Flashlight 4. Matches/lighter 5. Insect repellent 6. Extra clothes 7. First aid kit 8. Camp stove 9. Cooking utensils 10. Biodegradable soaps/shampoos",
+            "type": "text-generation"
+        },
+        {
+            "id": "tg7",
+            "input": "Describe the function of a computer motherboard",
+            "target": "A computer motherboard is the main circuit board in a computer. It is the backbone of the system, connecting all other components such as the processor, RAM, storage, graphics card and peripheral ports. It provides communication pathways between all of these components, allowing them to interact and work together. The motherboard is responsible for regulating power, and also houses slots for expansion cards, as well as ports for USB, audio, Ethernet, and other connection types.",
+            "type": "text-generation"
+        },
+        {
+            "id": "tg8",
+            "input": "Explain the concept of cogging torque.",
+            "target": "Cogging torque is the torque that is applied to a rotating device when the device experiences resistance from the teeth of the gears that are connected to the device. Cogging torque occurs due to the reaction force generated when the teeth of the gear drive mesh. This force pushes against each other, resulting in a drag force that is transmitted from the gears to the shaft. The magnitude of the cogging torque can vary depending on the size and number of teeth, as well as the gear's material and design. Cogging torque is undesirable in most motorized applications, as it can lead to loss of efficiency. To reduce cogging torque, gear designs are often symmetrical or have certain tooth profiles which reduce the force of contact between the teeth when they come into contact with each other.",
+            "type": "text-generation"
+        },
+        {
+            "id": "tg9",
+            "input": "Generate a list of adjectives that describe a person as brave.",
+            "target": "Courageous, heroic, audacious, vigorous, valorous, resolute, intrepid, bold, brave, daring, tenacious, plucky, stout-hearted, doughty, gallant, fearless, undaunted, spirited, daredevil.",
+            "type": "text-generation"
+        },
+        {
+            "id": "oqa10",
+            "input": "What is an API ?",
+            "target": "API stands for Application Programming Interface. It is a set of instructions or programming instructions that allow two applications to communicate and exchange data with each other. APIs provide a way for developers to access and manipulate data and services offered by other applications or platforms. They are an essential part of modern web development and allow developers to develop complex applications and websites using modular components.",
+            "type": "open-qa"
+        },
+        {
+            "id": "tg10",
+            "input": "Write a short paragraph about the importance of using renewable energy.",
+            "target": "The use of renewable energy is growing rapidly in relevance and importance as the world looks towards solutions to combat climate change. Renewable energy sources, such as solar, wind, and hydropower, are sustainable and have a much lower environmental impact than traditional energy sources like coal and oil. Switching to renewable energy can reduce carbon emissions, improve air quality, lessen the dependence on non-renewable resources, and provide a stable and secure energy future. Renewable energy is essential for achieving a sustainable future and should be an important part of any country’s energy portfolio.",
+            "type": "text-generation"
+        }
+    ]
+}
